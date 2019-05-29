@@ -1,0 +1,963 @@
+/* CSS Document */
+
+.tankuang { overflow:hidden; width:100%; height:100%; position:fixed; left:0; top:0; background:url(Img/Common/dsz06_tuwen.png) repeat center; z-index:99999999999; display:none}
+.tankuang .bg{ display:block; width:100%; height:100%; background-color:#000; opacity:0.8; filter:alpha(opacity=80); position:absolute; left:0; top:0; z-index:0}
+.tankuang .close{ display:block; position:absolute; right:10px; top:10px; background:url(Img/Common/in_ry_tk_close.png) no-repeat center; width:30px; height:30px; cursor:pointer; z-index:1}
+.tankuang span{ display:block; width:50px; height:50px; cursor:pointer; position:absolute; top:36%; z-index:5}
+.tankuang .btn01{ left:20px; background:url(Img/Index/pro_btn01.png) no-repeat center top;}
+.tankuang .btn02{ right:20px; background:url(Img/Index/pro_btn02.png) no-repeat center top;}
+.tankuang span:hover{ background-position:bottom}
+.tankuang .imgShow { overflow:hidden; width:100%; height:60%; position:absolute; left:0; top:15%;moz-user-select: -moz-none;
+-moz-user-select: none;
+-o-user-select:none;
+-khtml-user-select:none;
+-webkit-user-select:none;
+-ms-user-select:none;
+user-select:none; z-index:1}
+.tankuang .imgShow ul{ overflow:hidden; position:absolute; height:100%;}
+.tankuang .imgShow li{ float:left; text-align:center; height:100%;}
+.tankuang .imgShow li img{ display:block; margin:0 auto; height:90%;}
+.tankuang .imgShow li p{ font-size:18px; color:#fff; text-align:center;}
+.tankuang .imgBox{ overflow:hidden; width:100%; height:80px; position:absolute; left:0; bottom:5%; z-index:1}
+.tankuang .imgBox ul{ overflow:hidden; position:absolute; height:100%; padding-right:5px;}
+.tankuang .imgBox li{ float:left; height:100%; padding:0 5px; cursor:pointer}
+.tankuang .imgBox li img{ display:block; height:70px; padding:5px; background-color:#fff;moz-user-select: -moz-none;
+-moz-user-select: none;
+-o-user-select:none;
+-khtml-user-select:none;
+-webkit-user-select:none;
+-ms-user-select:none;
+user-select:none;}
+.tankuang .imgBox li em{ display:none}
+.tankuang .imgBox li.cur img{ background:#ff0000 }
+
+
+
+
+
+/*内页样式*/
+/*内页banner*/
+.inbanner{ overflow:hidden; width:100%; height:400px; background-color:#000}
+/*内页背景颜色#f2f2f2*/
+.bg_f2{ background-color:#f2f2f2;}
+.bg_fa{ background-color:#fafafa;}
+.bg_fc{ background-color:#fcfcfc;}
+.bg_f6{ background-color:#f6f6f6;}
+.bg_f7{ background-color:#f7f7f7;}
+/*内页100%框*/
+.pageBox { overflow:hidden; width:100%; padding-bottom:50px;}
+/*内页翻页按钮*/
+/*.ul-FlipBtn { overflow:hidden; width:100%; text-align:center; margin:30px 0;}
+.ul-FlipBtn li{ display:inline-block; margin:0 3px; border:1px solid #cecece; font-size:14px; color:#777; cursor:pointer; height:32px; text-align:center; line-height:32px;}
+.ul-FlipBtn li{ *display:inline}
+.ul-FlipBtn .Flipbtn{ width:78px;}
+.ul-FlipBtn .list{ width:32px;}
+.ul-FlipBtn li:hover,.ul-FlipBtn li.cur{ background-color:#1144a3; color:#fff; border-color:#1144a3;}*/
+
+.fenyebtn { overflow:hidden; width:100%; margin-top:30px;text-align:center;}
+.fenyebtn a{text-decoration: none; display:inline-block; width:32px; margin:0 3px; text-align:center; line-height:32px;height:32px; font-size:14px; color:#777; border:1px solid #cecece; font-family:Arial; cursor:pointer}
+.fenyebtn a{ *display:inline ;    text-decoration: none;}
+.fenyebtn .pre,.fenyebtn .next{width:78px;border:1px solid #cecece;}
+.fenyebtn a:hover,.fenyebtn a.oran_pg_cur{ color:#fff; background-color:#1144a3; text-decoration: none;border-color:#1144a3;}
+
+/*内页面包屑导航*/
+.pageMenu { overflow:hidden; width:100%; height:50px; line-height:47px; border-bottom:1px solid #e3e3e3;  background-color:#fff;margin-bottom: 50px;}
+.pageMenu .mbxNav{ overflow:hidden; float:left}
+.pageMenu .mbxNav li{ float:left; font-size:14px; color:#666; margin:0 5px;}
+.pageMenu .mbxNav li em{ margin-left:5px;}
+.pageMenu .mbxNav li a{ color:#666;}
+.pageMenu .mbxNav li.home{ width:50px; height:50px; border-left:1px solid #e3e3e3; border-right:1px solid #e3e3e3; background:url(Img/Common/mbxNav_home.png) no-repeat center; margin-right:10px; margin-left:0}
+.pageMenu .mbxNav li.home a{ display:block; width:100%; height:100%;}
+.pageMenu .mbxNav li.last{ color:#1144a3;}
+.pageMenu .pageErjiNav{ overflow:hidden; float:right;}
+.pageMenu .pageErjiNav li{ float:left; height:49px; font-size:14px; color:#666; margin-left:40px;}
+.pageMenu .pageErjiNav li a{ color:#666; text-decoration:none}
+.pageMenu .pageErjiNav li.cur,.pageMenu .pageErjiNav li:hover{ border-bottom:1px solid #1144a3;}
+.pageMenu .pageErjiNav li.cur a, .pageMenu .pageErjiNav li:hover a{ color:#1144a3; font-weight:bold} 
+
+
+/*title02*/
+.title02 { overflow:hidden; margin:40px 0;}
+.title02 h2{ font-weight:normal; font-size:26px; color:#fff;}
+.title02 p{ font-size:14px; color:#cedffe; margin:5px 0 12px 0;}
+.title02 i{ display:block; width:30px; height:1px; background-color:#50d527;}
+
+
+
+/*jiameng.html*/
+.jmzt01{ overflow:hidden; width:100%; height:504px; background:url(Img/inpage/jiameng/top_01.jpg) no-repeat center top;}
+.jmzt02{ overflow:hidden; width:100%; height:503px; background:url(Img/inpage/jiameng/top_02.jpg) no-repeat center top;}
+
+.jmzt03{ overflow:hidden; width:100%; height:576px; background:url(Img/inpage/jiameng/xzbg.jpg) no-repeat center top; padding-top:60px;}
+.jmzt03 .list{ overflow:hidden; width:480px; float:left; margin-left:90px; margin-bottom:100px;}
+.jmzt03 img{ display:block; float:left}
+.jmzt03 .wen{ overflow:hidden; float:left; margin-left:29px;}
+.jmzt03 h3{ font-size:24px; color:#9e2022; margin:20px 0 0 0;}
+.jmzt03 p{ font-size:16px; line-height:26px; color:#9e2022;}
+.jmzt03 .jm03box{ overflow:hidden; width:1200px; margin:0 auto}
+
+.jmzt04 { overflow:hidden; width:100%; height:675px; background:url(Img/inpage/jiameng/qudao_bg.jpg) no-repeat center top;}
+.jmzt04 .jm04box{ overflow:hidden; width:1200px; height:345px; position:relative; margin:0 auto; margin-top:206px;}
+.jmzt04 p{ font-size:20px; line-height:25px; color:#000; width:235px; position: absolute}
+.jmzt04 .p01{ left:115px; top:45px;}
+.jmzt04 .p02{ left:530px; top:52px;}
+.jmzt04 .p03{ left:943px; top:60px;}
+.jmzt04 .p04{ left:115px; top:255px;}
+.jmzt04 .p05{ left:530px; top:255px;}
+.jmzt04 .p06{ left:943px; top:242px;}
+
+.jmzt05 { overflow:hidden; width:100%; padding:60px 0 50px 0; background:url(Img/inpage/jiameng/xl_bg.png) repeat left top;}
+.jmzt05 h2{ text-align:center; margin-bottom:45px;}
+.jmzt05 .jm05box{ overflow:hidden; width:1221px; margin:0 auto; height:504px;}
+.jmzt05 .jm05box img{ display:block; float:left; margin:10px;}
+
+.jmzt06 { overflow:hidden; width:100%; height:758px; background:url(Img/inpage/jiameng/dian_bg.png) no-repeat center;}
+.jmzt06 h2{ text-align:center; margin-top:125px; margin-bottom:50px;}
+.jmzt06 .dian{ overflow:hidden; width:1200px; margin:0 auto; height:440px; position:relative}
+.jmzt06 .dian i{ display:block; width:45px; height:86px; cursor:pointer; position:absolute; top:32%; z-index:2}
+.jmzt06 .dian .btn01{ background:url(Img/inpage/jiameng/dian01.png) no-repeat center top; left:0}
+.jmzt06 .dian .btn02{ background:url(Img/inpage/jiameng/dian01.png) no-repeat center bottom; right:0}
+.jmzt06 .dianbox{ overflow:hidden; width:1040px; margin:0 auto; height:440px;}
+.jmzt06 .dianbox .list{ background-color:#000; position:absolute}
+.jmzt06 .dianbox .list img{ display:block; opacity:0.5; filter:alpha(opacity=50);}
+.jmzt06 .dianbox .active{ background:none;box-shadow: 12px 11px 10px rgba(0,0,0,.65);}
+.jmzt06 .dianbox .active img{ opacity:1; filter:alpha(opacity=100);}
+.jmzt06 .dianbox .list p{ text-align:center; font-size:16px; color:#000; margin-top:10px;}
+.jmzt06 .dianbox .list p a{ text-align:center; font-size:16px; color:#000; margin-top:10px;}
+
+.jmzt07 { overflow:hidden; width:100%; height:709px; background:url(Img/inpage/jiameng/sybg.jpg) no-repeat center top;}
+.jmzt07 p{ font-size:20px; line-height:80px; color:#fff; margin-left:700px; margin-top:250px;}
+
+.jmzt08 { overflow:hidden; width:100%; height:696px; background:url(Img/inpage/jiameng/zc_bg.png) no-repeat center top;}
+.jmzt08 h2{ text-align:center; margin-top:60px; margin-bottom:45px;}
+.jmzt08 ul{ overflow:hidden; width:1224px; margin:0 auto;}
+.jmzt08 li{ width:286px; height:190px; margin:10px; background-color:#fff; float:left}
+.jmzt08 li img{ display:block; margin:28px auto 20px auto}
+.jmzt08 li p{ margin:0 auto; width:235px; text-align:center; font-size:14px; color:#333; line-height:20px;}
+
+.jmzt09 { overflow:hidden; padding:65px 0 45px 0; background:url(Img/inpage/jiameng/xl_bg.png) repeat left top;}
+.jmzt09 h2{ text-align:center; margin-bottom:35px;}
+.jmzt09 .cgbox{ overflow:hidden; width:1220px; margin:0 auto;}
+.jmzt09 .list{ overflow:hidden; width:590px; margin:10px; height:220px; background-color:#fff; float:left; position:relative}
+.jmzt09 .list img{ display:block; float:left}
+.jmzt09 .wen{ overflow:hidden; width:275px; float:left; margin-left:25px; margin-top:50px;}
+.jmzt09 .wen h3{ font-size:18px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; margin-bottom:25px;}
+.jmzt09 .wen h3 a{ color:#005bac;}
+.jmzt09 .wen p{ font-size:14px; line-height:20px; color:#666; height:60px; overflow:hidden; text-align:justify;}
+.jmzt09 .more{ display:block; position:absolute; right:0; bottom:0; width:25px; height:25px; background:url(Img/inpage/jiameng/cg_s.png) no-repeat center;}
+
+.jmzt10 { overflow:hidden; width:100%; height:522px; background:url(Img/inpage/jiameng/lybg.jpg) no-repeat center top;}
+.jmzt10 .wen { overflow:hidden; float:left; width:415px; margin-top:160px;}
+.jmzt10 h2{ font-size:38px; color:#ffbb32;}
+.jmzt10 span{ display:block; font-size:24px; color:#ffbb32; text-align:center; width:380px; height:39px; line-height:39px; border:1px solid #ffbb32; margin:5px 0 20px 0;}
+.jmzt10 p{ font-size:17px; color:#fff; margin-bottom:5px;}
+.jmzt10 em{ display:block; font-size:28px; color:#fff; margin-bottom:40px;}
+.jmzt10 .phone{ padding-left:65px; background:url(Img/inpage/jiameng/ly_p.png) no-repeat left center;}
+.jmzt10 b{ font-weight:normal; font-size:14px; color:#fff; display:block;}
+.jmzt10 h3{ font-weight:normal; font-size:28px; color:#ffbb32;}
+.jmzt10 .lybox{ overflow:hidden; float:right; width:415px; margin-top:160px;}
+.jmzt10 input{ padding-left:55px; width:360px; height:50px; line-height:50px; font-size:13px; color:#999; border:none; margin-bottom:10px; outline:none}
+.jmzt10 .name{ background:url(Img/inpage/jiameng/ly01.png) no-repeat left center; background-color:#fff}
+.jmzt10 .pho{ background:url(Img/inpage/jiameng/ly02.png) no-repeat left center; background-color:#fff;}
+.jmzt10 textarea{ padding:10px; padding-left:55px; width:350px; height:85px; font-size:13px; color:#999; border:none; margin-bottom:10px; resize:none; background:url(Img/inpage/jiameng/ly03.png) no-repeat left top; background-color:#fff; outline:none}
+.jmzt10 a{ display:block; width:160px; height:50px; background-color:#ffbb32; text-align:center; line-height:50px; text-decoration:none; font-size:18px; color:#1a2880;}
+
+/*product.html*/
+.pc-menu { overflow:hidden; width:1200px; margin:0 auto; padding-bottom:6px; margin-bottom:35px;}
+.pc-menu li{ float:left; width:299px; border-right:1px solid #eee; text-align:center; position:relative; height:120px; background-color:#fff;}
+.pc-menu li .pc-s{ display:none; position:absolute; top:120px; left:142px;}
+.pc-menu li a{ display:block; height:100%; text-decoration:none; font-size:18px; color:#777;}
+.pc-menu li i{ display:block; overflow:hidden; position:relative; margin:0 auto; width:70px; height:50px; margin-top:20px; margin-bottom:10px;}
+.pc-menu li.cur,.pc-menu li:hover{ background-color:#1144a3;}
+.pc-menu li.cur .pc-s,.pc-menu li:hover .pc-s{ display:block;}
+.pc-menu li.cur i img,.pc-menu li:hover i img{ margin-top:-50px;}
+.pc-menu li.cur a,.pc-menu li:hover a{ color:#fff;}
+
+.pc-list { overflow:hidden; width:1230px; margin:0 auto;}
+.pc-list li{ float:left; margin:15px; width:380px; height:365px; background-color:#fff; position:relative}
+.pc-list li .tu{ display:block; width:380px; height:284px; overflow:hidden; border-bottom:1px solid #e7e7e7; margin-bottom:20px;}
+.pc-list li h3{ font-size:16px; font-weight:normal; width:290px; margin-left:20px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; margin-bottom:5px;text-align: center;}
+.pc-list li h3 a{ color:#555}
+.pc-list li p{ font-size:14px; color:#888; width:290px; margin-left:20px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.pc-list li i{ display:block; width:16px; height:9px; padding-left:5px; background:url(Img/inpage/product/pc-jt.png) no-repeat right top; border-left:1px solid #fff; position:absolute; right:20px; bottom:35px;}
+.pc-list li:hover{ background-color:#1144a3; box-shadow:0 0 10px #ccc}
+.pc-list li:hover a,.pc-list li:hover p{ color:#fff;}
+
+/*product_xiangqing.html*/
+.pxqbox{ overflow:hidden; margin-top:40px;}
+.pxq-left{ overflow:hidden; float:left; width:940px;}
+.pxq-right{ overflow:hidden; float:right; width:240px;}
+
+.pxqTop { overflow:hidden; width:900px; padding:0 20px; background-color:#fff; margin-bottom:10px; height:550px;}
+.pxqTop .topleft{ overflow:hidden; width:510px; padding:20px 0; padding-right:20px; border-right:1px solid #e7e7e7; height:510px; float:left;}
+.pxqTop .bigtu{ overflow:hidden; width:510px; height:374px; margin-bottom:30px;}
+.pxqTop .tulist{ overflow:hidden; width:100%; height:97px; position: relative}
+.pxqTop .tulist i{ display:block; width:40px; height:97px; position:absolute; cursor:pointer;}
+.pxqTop .tulist .btn01{ left:0; background:url(Img/inpage/product/pxq_btn01.png) no-repeat left center;}
+.pxqTop .tulist .btn02{ right:0; background:url(Img/inpage/product/pxq_btn02.png) no-repeat left center;}
+.pxqTop .tulist i:hover{ background-position:right;}
+.pxqTop .tuwin{ overflow:hidden; width:410px; margin:0 auto; height:97px; position:relative}
+.pxqTop .tuwin ul{ overflow:hidden; position:absolute;}
+.pxqTop .tuwin li{ float:left; cursor:pointer; width:128px; height:95px; border:1px solid #e9e9e9; margin-right:10px;}
+.pxqTop .tuwin li img{ display:block; margin:2px auto}
+.pxqTop .tuwin li.cur{ background-color:#1144a3; border-color:#1144a3;}
+.pxqTop .wen { overflow:hidden; float:left; margin-left:30px; width:330px;}
+.pxqTop .wen h2{ overflow:hidden; font-size:18px; color:#1144a3; padding-bottom:18px; border-bottom:2px solid #e7e7e7; margin-bottom:15px; margin-top:40px;}
+.pxqTop .wen h2 span{ float:left;}
+.pxqTop .wen h2 a{ display:block; float:right; padding-right:20px; margin-top:3px; background:url(Img/inpage/product/pxq-fh.png) no-repeat right center; font-weight:normal; font-size:12px; color:#999}
+.pxqTop .wen p{ font-size:14px; color:#555; line-height:36px; margin-bottom:15px;}
+.pxqTop .wen em{ display:block; padding-top:18px; border-top:2px solid #e7e7e7;}
+.pxqTop .wen h3{ display:block; font-size:28px; color:#1b43c4; font-family:Arial; margin-bottom:10px;}
+.pxqTop .wen a.zx{ display:block; width:180px; height:45px; text-align:center; line-height:45px; background:url(Img/inpage/product/pxq-zx.png) no-repeat center; font-size:14px; color:#fff;}
+
+.pxq-canshu{ overflow:hidden; width:900px; background-color:#fff;}
+
+.pxq-right h2{ width:100%; height:90px; text-align:center; line-height:90px; font-weight:normal; font-size:26px; color:#fff; background-color:#1144a3; border-radius:5px 5px 0 0;}
+.pxq-right h2 a{ color:#fff;}
+.pxq-right .pxq-plist{ overflow:hidden; width:100%; background-color:#fff; margin-bottom:10px;}
+.pxq-right .pxq-plist ul{ overflow:hidden; width:100%;}
+.pxq-right .pxq-plist li{ overflow:hidden; width:100%; border-bottom:2px solid #e7e7e7;}
+.pxq-right .pxq-plist li>a{ display:block; width:210px; height:60px; line-height:60px; padding-left:30px; font-size:16px; color:#777; text-decoration:none}
+.pxq-right .pxq-plist i{ display:inline-block; width:20px; height:16px; overflow:hidden; position:relative; margin-right:10px;}
+.pxq-right .pxq-plist i{ *display:inline}
+.pxq-right .pxq-plist img{ display:block}
+.pxq-right .pxq-plist .eej{ overflow:hidden;padding:15px 0; width:100%; border-top:1px solid #e7e7e7; }
+.pxq-right .pxq-plist .eej a{ display:block; padding-left:60px; width:180px; font-size:14px; color:#999; line-height:30px; height:30px; text-decoration:none}
+.pxq-right .pxq-plist .eej a:hover,.pxq-right .pxq-plist .eej a.cur{ color:#1144a3; background-color:#ddd}
+.pxq-right .pxq-plist li.cur>a,.pxq-right .pxq-plist li>a:hover{ color:#1144a3; font-weight:bold}
+.pxq-right .pxq-plist li.cur>a img,.pxq-right .pxq-plist li>a:hover img{ margin-top:-16px;}
+.pxq-right .pxq-xgty{ overflow:hidden; display:block; width:230px; height:310px; border:5px solid #fff; position:relative; margin-bottom:10px;}
+.pxq-right .pxq-xgty span{ display:block; position:absolute; left:0; bottom:0; width:100%; height:55px; line-height:55px; font-size:14px; color:#fff; background-color:#1144a3; opacity:0.9; filter:alpha(opacity=90); text-align:center}
+.pxq-right .pxq-jsq{ display:block; overflow:hidden; width:230px; height:100px; border:5px solid #fff; margin-bottom:10px;}
+.pxq-right .pxq-search{ overflow:hidden; width:230px; height:50px; border:5px solid #fff;}
+.pxq-right .pxq-search input{ display:block; width:150px; height:50px; border:none; outline:none; line-height:50px; padding:0 10px; font-size:14px; color:#666; background-color:#f2f2f2; float:left}
+.pxq-right .pxq-search span{ display:block; width:60px; height:50px; cursor:pointer; background:url(Img/inpage/product/pxq-search.jpg) no-repeat center; float:right;}
+
+/*news_video.html*/
+.vd-list { overflow:hidden; width:1220px; margin:0 auto;}
+.vd-list li{ float:left; width:285px; background-color:#f2f2f2; height:265px; margin:10px; overflow:hidden;}
+.vd-list li .tu{ display:block; width:285px; height:185px; overflow:hidden; position:relative; margin-bottom:20px;}
+.vd-list li h3{ font-weight:normal; font-size:14px; margin-left:30px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; margin-bottom:5px; width:225px;}
+.vd-list li h3 a{ color:#444;}
+.vd-list li p{ margin-left:30px; width:205px; padding-left:20px; background:url(Img/inpage/news/vd-yan.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/news/vd-yan.png*/ no-repeat left center; font-size:12px; color:#999; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+
+/*tiyan.html*/
+.ty-menu { overflow:hidden; width:360px; height:50px; margin:0 auto; margin-bottom:40px;}
+.ty-menu li{ float:left; width:180px; height:50px; text-align:center; line-height:50px; font-size:14px; background-color:#888}
+.ty-menu li a{ display:block; color:#fff; text-decoration:none;}
+.ty-menu li.cur,.ty-menu li:hover{ background-color:#1144a3;}
+
+.ty-list { overflow:hidden; width:1230px; margin:0 auto;}
+.ty-list li{ float:left; width:380px; height:247px; margin:15px; position:relative; overflow:hidden;}
+.ty-list li a{ display:block; text-decoration:none;}
+.ty-list li span{ display:block; width:100%; height:50px; line-height:50px; text-align:center; font-size:14px; color:#fff; background:url(Img/inpage/other/ty02.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/other/ty02.png*/ repeat center; position:absolute; left:0; bottom:0}
+
+/*jisuanqi.html*/
+.jsq-table { overflow:hidden; width:1198px; border:1px solid #e4e4e4; padding-top:141px; background:url(Img/inpage/other/jsq.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/other/jsq.png*/ no-repeat center top; margin:0 auto;}
+.jsq-table tr{ overflow:hidden; width:100%; height:45px;}
+.jsq-table td{ overflow:hidden; border-right:1px solid #e4e4e4; text-align:center}
+.jsq-table .td01{ width:221px;}
+.jsq-table .td02{ width:244px;}
+.jsq-table .td03{ width:243px;}
+.jsq-table .td04{ width:244px;}
+.jsq-table .td05{ width:242px; border:none}
+.jsq-table .trf6{ background-color:#f6f6f6}
+
+
+/*contact.html*/
+.contact { overflow:hidden; width:100%; height:900px; background:url(Img/inpage/contact/contact_bg.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/contact_bg.jpg*/ no-repeat center top;}
+.contact .cbox01{ float:left; width:340px; height:460px;}
+.contact .cbox02{ float:left; padding:20px; width:500px; height:420px; background: url(Img/inpage/contact/contact04.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/contact04.jpg*/ no-repeat right bottom; background-color:#fff; margin-left:10px;}
+.contact .cbox03{ overflow:hidden; float:right; width:260px; height:460px; background-color:#ef3b35; padding:0 20px;}
+.contact .csearch{ overflow:hidden; width:100%; height:225px; margin-bottom:10px; background:url(Img/inpage/contact/contact01.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/contact01.jpg*/ no-repeat center top;}
+.contact .cbox01 h3{ font-weight:normal; font-size:18px; color:#fff; margin-left:20px; margin-top:20px;}
+.contact .cbox01 h3 a{ color:#fff;}
+.contact .csearch .sbox{ overflow:hidden; width:294px; height:54px; border:3px solid #0d3888; margin:0 auto; margin-top:60px;}
+.contact .csearch input{ float:left; width:217px; padding:0 10px; height:54px; background-color:#fff; border:none; outline:none; font-size:14px; color:#999; line-height:54px;}
+.contact .csearch span{ display:block; width:57px; height:54px; float:right; cursor:pointer; background:url(Img/inpage/contact/contact_search.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/contact_search.jpg*/ no-repeat center;}
+.contact .cbox01 .clx{ display:block; width:100%; height:100%; background:url(Img/inpage/contact/contact02.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/contact02.jpg*/ no-repeat center top; overflow:hidden}
+.contact .cbox02 h3{ font-size:18px; font-weight:normal; margin-bottom:10px;}
+.contact .cbox02 h3 a{ color:#555}
+.contact .cbox02 p{ font-size:14px; color:#888; padding-bottom:25px; border-bottom:2px solid #e0e0e0;}
+.contact .cbox02 ul{ overflow:hidden; width:100%;}
+.contact .cbox02 li{ width:100%; background:url(Img/inpage/contact/contact03.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/contact03.png*/ no-repeat right center; float:left; height:60px; line-height:60px; font-size:16px; color:#777; border-bottom:1px solid #e0e0e0}
+.contact .cbox02 li a{ display:block; width:95%; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; color:#777;}
+.contact .cbox03 a{ display:block; width:100%; height:230px; border-bottom:1px solid #f58986; text-align:center; font-size:18px; color:#fff; text-decoration:none; overflow:hidden;}
+.contact .cbox03 a img{ display:block; margin:0 auto; margin-top:70px; margin-bottom:20px; position:relative}
+
+/*lianxi.html*/
+.lx-info { overflow:hidden; width:100%; height:273px; background:url(Img/inpage/contact/lianxi_bg.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/lianxi_bg.jpg*/ no-repeat center top;}
+.lx-info h3{ text-align:center; font-size:22px; color:#555; margin-top:50px; font-weight:normal}
+.lx-info em{ display:block; text-align:center; font-size:12px; color:#999; font-family:Arial; margin-bottom:45px;}
+.lx-info ul{ overflow:hidden; width:1200px; margin:0 auto;}
+.lx-info li{ float:left; width:399px; overflow:hidden; float:left; font-size:14px; line-height:30px; color:#555; border-right:1px solid #d3d3d3}
+.lx-info li img{ margin-right:5px;}
+.lx-info .li02{ padding-left:100px; width:299px;}
+.lx-info .last{ padding-left:160px; width:240px; border:none;}
+
+.lx-menu { overflow:hidden; width:1200px; height:50px; margin:0 auto; margin-top:-25px; position:relative; z-index:2;}
+.lx-menu li{ float:left; width:199px; cursor:pointer; height:50px; text-align:center; line-height:50px; font-size:14px; color:#fff; margin-right:1px; background-color:#1144a3;}
+.lx-menu .cur{ background-color:#37c663;}
+
+.lx-box { overflow:hidden; width:100%; height:600px; margin-top:-25px; position:relative; z-index:1}
+.lx-box .lx-list{ overflow:hidden; width:100%; height:600px;}
+.drivingPanel
+        {
+            height: 600px;
+            overflow: scroll;
+            width: 80%;
+            display: none;
+            position: absolute;
+            z-index: 0;
+            left: 0;
+            top: 0;
+        }
+ #map_container
+        {
+            height: 600px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+        .black_bg
+        {
+            width: 30%;
+            height: 600px;
+            position: absolute;
+            top: 0;
+            left: 80%;
+            opacity: 0.6;
+            background: #000;
+            z-index: 200;
+            display: none;
+        }
+        .iw_poi_title
+        {
+            color: #1144a3;
+            font-size: 14px;
+            font-weight: bold;
+            overflow: hidden;
+            padding-right: 13px;
+            white-space: nowrap;
+        }
+        .iw_poi_content
+        {
+            font: 12px arial,sans-serif;
+            overflow: visible;
+            padding-top: 4px;
+            word-wrap: break-word;
+        }
+        .iw_poi_phone a:link
+        {
+            display: block;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration:none;
+            background-position: 20px center;
+            background-repeat: no-repeat;
+            background-size: 20px 20px;
+        }
+        .iw_poi_phone
+        {
+            border-radius: 3px;
+            margin: 8px 0;
+            text-indent: 50px;
+            font: 14px arial,sans-serif;
+            line-height: 23px;
+            overflow: visible;
+            padding-top: 4px;
+            word-wrap: break-word;
+            display: block;
+            height: 25px;
+            width: 100%;
+            
+            background-image: -webkit-linear-gradient(top, #1144a3, #1144a3);
+            background-image: -moz-linear-gradient(top, #dc1313, #BB1E1E);
+            background-image: -o-linear-gradient(top, #dc1313, #BB1E1E);
+            background-image: -ms-linear-gradient(top, #dc1313, #BB1E1E);
+            background-image: linear-gradient(top, #dc1313, #BB1E1E);
+        }
+/*mendian.html*/
+.md-wen { overflow: scroll;overflow-x: hidden;  padding:0 40px; width:520px; height:350px; background:url(Img/inpage/contact/mendian01.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/mendian01.jpg*/ no-repeat center;*background:url(Img/inpage/contact/mendian01.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/mendian01.jpg*/ repeat-y center top; float:left}
+.md-wen h3{ font-weight:normal; font-size:22px; color:#fff; margin-top:95px; padding-bottom:20px; background:url(Img/inpage/contact/mendian02.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/mendian02.jpg*/ no-repeat left bottom; margin-bottom:15px;}
+.md-wen p{ font-size:14px; color:#fff; line-height:25px;}
+
+.md-search { overflow:hidden; width:540px; height:361px; background:url(Img/inpage/contact/mendian04.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/mendian04.jpg*/ no-repeat center; float:right;}
+.md-search .sbox { width:534px; height:45px; border:3px solid #444; margin-top:149px;}
+.md-search .sbox .shengfen{ float:left; position:relative; font-size:15px;  background:#fff; width:477px;}
+.md-search .sbox .shengfen span{ display:block; height:44px;  padding:0 10px; line-height:44px; background:url(Img/sj.png)/*tpa=http://www.badese.com/Skins/Default/Img/sj.png*/ no-repeat 453px center;}
+.md-search .sbox .shengfen ul{background: #fff;overflow: scroll;overflow-x: hidden;position: absolute;width: 477px; height:150px;top: 44px;left: 0px;display: none; z-index:999;}
+.md-search .sbox .shengfen li{ height:40px; line-height:40px;padding:0 10px;}
+.md-search .sbox .shengfen li:hover{ background:#999;}
+.md-search .sbox .shengfen:hover ul{ display:block;}
+.md-search .sub{ background:url(Img/inpage/contact/mendian03.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/mendian03.jpg*/ no-repeat center; width:57px; height:45px; float:right;cursor:pointer;}
+
+/*rencai.html*/
+.rc-search { overflow:hidden; width:100%; margin-bottom:30px; height:38px;}
+.rc-search select{ overflow:hidden; width:350px; height:38px; line-height:38px; background-color:#ededed; border:none; outline:none; font-size:14px; color:#777; display:block; float:left; margin-right:20px; padding:0 20px;}
+.rc-search input{ float:left; width:340px; height:38px; background-color:#ededed; line-height:38px; padding:0 20px; font-size:14px; color:#777; border:none; outline:none; display:block}
+.rc-search span{ display:block; float:right; width:80px; height:38px; text-align:center; line-height:38px; cursor:pointer; font-size:14px; color:#fff; font-weight:bold; background-color:#1144a3}
+
+.rc-box { overflow:hidden; width:100%; border-top:2px solid #e2e2e2;}
+.rc-box .w200{ width:200px;}
+.rc-box .w350{ width:350px;}
+.rc-box .w100{ width:100px;}
+.rc-box .w300{ width:300px;}
+.rc-box .rc-top{ overflow:hidden; width:100%; height:60px; border-bottom:1px solid #e2e2e2; line-height:60px; font-size:14px; color:#555; text-align:center}
+.rc-box .rc-top b{ display:block; float:left}
+.rc-box .rc-top img{ margin-right:5px; position: relative; top:2px;}
+.rc-box .rc-list{ overflow:hidden; width:100%;}
+.rc-box .rc-name{ overflow:hidden; cursor:pointer; width:100%; background:url(Img/inpage/contact/rc_more.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/rc_more.png*/ no-repeat 1140px center; line-height:60px; height:60px; font-size:14px; color:#777; border-bottom:1px solid #e2e2e2;}
+.rc-box .rc-name span{ display:block; float:left; text-align:center}
+.rc-box .rc-xq{ display:none; overflow:hidden; width:1080px; padding:0 60px; padding-bottom:50px;}
+.rc-box .rc-xq h4{ font-size:14px; color:#555; margin:40px 0 15px 0;}
+.rc-box .rc-xq p{ font-size:12px; color:#777; line-height:25px;}
+.rc-box .rc-xq i{ display:block; width:100%; height:1px; background-color:#e2e2e2; margin:35px 0;}
+.rc-box .rc-xq span{ display:block; font-size:12px; color:#777; margin-bottom:25px;}
+.rc-box .rc-xq span em{ color:#f80811;}
+.rc-box .rc-xq a{ display:block; width:200px; height:46px; border-radius:5px; background-color:#1144a3; text-align:center; line-height:46px; font-size:14px; color:#fff; text-decoration:none;}
+.rc-box .rc-list.cur .rc-name{ background:url(Img/inpage/contact/rc_s.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/rc_s.png*/ no-repeat 1140px center; background-color:#1144a3; color:#fff; border-color:#1144a3}
+
+.tkBox{ overflow:hidden; width:100%; height:100%; background:url(Img/inpage/contact/dsz06_tuwen.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/dsz06_tuwen.png*/ repeat center; position:fixed; left:0; top:0; display:none;}
+	/*招聘弹框*/
+.tkBox .tk_zp_main { width:1100px; height:460px; position:absolute; left:50%; top:50%; margin-left:-600px; margin-top:-230px; background-color:#fff;}
+.tkBox .tk_zp_main i{ display:block; width:50px; height:50px; background:url(Img/inpage/contact/in_ry_tk_close.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/in_ry_tk_close.png*/ no-repeat center; position:absolute;right:-50px; top:-10px;cursor:pointer; margin-left:620px;}
+.tkBox .tk_zp_main h4{ font-weight:normal; text-align:center; font-size:24px; color:#555; margin-top:60px; margin-bottom:40px;position: relative;}
+.tkBox .tk_zp_main .inBox{ overflow:hidden; width:740px; margin:0 auto; padding-top:5px;    position: relative;}
+.tkBox .tk_zp_main input{ overflow:hidden; width:328px; height:33px; border:1px solid #cecece; left:33px; padding:0 10px; display:block; float:left; margin:0 10px; margin-bottom:10px; font-size:12px; color:#999;}
+.tkBox .tk_zp_main textarea{ width:698px; display:block; padding:10px; margin:0 auto; margin-bottom:20px; height:100px; border:1px solid #cecece; font-size:12px; color:#999; resize:none;}
+.tkBox .tk_zp_main b{ display:block; width:180px; height:40px; background-color:#1144a3; text-align:center; line-height:40px; font-size:14px; color:#fff; cursor:pointer; float:right; margin-right:10px; font-weight:normal}
+.tkBox .tk_zp_main .file_up_lnk{position: absolute;  top: 63px;right:15px;}
+
+/*tousu.html*/
+.tousu-box { overflow:hidden; width:100%;}
+.tousu-box ul{ overflow:hidden; width:110%; height:340px; margin-bottom:20px;}
+.tousu-box li{ float:left; width:578px; height:48px; border:1px solid #cecece; margin-right:40px; margin-bottom:20px;}
+.tousu-box li img{ display:block; float:left; border-right:1px solid #cecece;}
+.tousu-box li input{ float:left; width:508px; padding:0 10px; border:none; outline:none; line-height:48px; height:48px; font-size:14px; color:#888; background:none}
+.tousu-box li select{ float:left; width:528px; padding:0 10px; border:none; outline:none; line-height:48px; height:48px; font-size:14px; color:#888; background:none}
+.tousu-box .last{ width:1198px; height:198px;}
+.tousu-box .last span{ display:block; width:49px; height:198px; background:url(Img/inpage/contact/tousu05.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/contact/tousu05.png*/ no-repeat center; border-right:1px solid #cecece; float:left;}
+.tousu-box textarea{ overflow:hidden; width:1128px; padding:10px; height:178px; font-size:14px; color:#888; border:none; outline:none; resize:none; display:block; float:left; background:none}
+.tousu-box span{ display:block; width:240px; height:50px; text-align:center; line-height:50px; cursor:pointer; background-color:#1144a3; font-size:16px; color:#fff; border-radius:5px;}
+
+/*about.html*/
+.about-box { overflow:hidden; width:100%; height:900px; background:url(Img/inpage/about/about_bg.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/about_bg.jpg*/ no-repeat center top;}
+.about-box h3{ font-size:18px; font-weight:normal; margin-bottom:15px;}
+.about-box h3 a{ color:#555}
+.about-box .abox01{ overflow:hidden; width:270px; height:360px; padding:20px; background-color:#fff; float:left;}
+.about-box .abox01 img{ display:block; margin-bottom:15px;}
+.about-box .abox01 p{ overflow:hidden; font-size:12px; color:#777; line-height:20px; height:60px; padding-bottom:15px; border-bottom:1px solid #e0e0e0; margin-bottom:15px; text-align:justify;}
+.about-box .abox01>img{ float:right}
+.about-box .abox02 { overflow:hidden; width:520px; padding:20px; height:360px; background-color:#fff; margin:0 10px; float:left;}
+.about-box .abox02 img{ display:block; margin-bottom:16px;}
+.about-box .abox02 p{ font-size:12px; color:#777; line-height:20px; height:40px; margin-bottom:20px; overflow:hidden}
+.about-box .abox02 .more{ display:block; width:120px; height:34px; text-align:center; line-height:34px; font-size:12px; color:#999; text-decoration:none; border:1px solid #cecece; border-radius:5px;}
+.about-box .abox03{ overflow:hidden; width:310px; height:400px; background:url(Img/inpage/about/about05.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/about05.jpg*/ no-repeat center top; float:left;}
+.about-box .abox03 h4{ font-size:18px; font-weight:normal; margin-bottom:15px; margin-left:20px;}
+.about-box .abox03 h4 a{ color:#fff;}
+.about-box .abox03 img{ display:block; margin-bottom:20px;}
+.about-box .abox03 p{ font-size:12px; color:#fff; margin:0 auto; width:270px; height:40px; line-height:20px; margin-bottom:25px;}
+.about-box .abox03 .more{ display:block; width:120px; height:34px; text-align:center; line-height:34px; font-size:12px; color:#91afe8; margin-left:20px; text-decoration:none; border:1px solid #91afe8; border-radius:5px;}
+.about-box .abox04{ width:310px; margin-right:10px;}
+.about-box .abox05{ width:310px; margin-right:10px;}
+.about-box .abox06,.about-box .abox07{ width:280px;}
+.about-box .alist{ overflow:hidden; position:relative; background-color:#fff; float:left; height:200px;}
+.about-box .alist a{ display:block; position:relative; z-index:2; width:100%; height:100%; overflow:hidden; text-align:center; font-size:18px; color:#555; text-decoration:none;}
+.about-box .alist i{ display:block; width:70px; height:50px; position:relative; overflow:hidden; margin:0 auto; margin-top:55px; margin-bottom:15px;}
+.about-box .alist b{ display:block; width:100%; height:0; background-color:#1144a3; position:absolute; left:0; bottom:0; z-index:1}
+.about-box .alist span{ display:block; width:1px; height:86px; background-color:#e0e0e0; position:absolute; right:0; top:57px;}
+.about-box .alist:hover a{ color:#fff}
+
+/*course.html*/
+.lc-info{ overflow:hidden; width:1000px; margin:0 auto; margin-bottom:50px; font-size:14px; line-height:26px; color:#666; text-align:center}
+
+.lc-box { overflow:hidden; width:1200px; margin:0 auto; position:relative}
+.lc-box .lc-x{ overflow:hidden; width:2px; height:100%; background-color:#005bac; position:absolute; left:50%; margin-left:-1px; top:0}
+.lc-box .lc-list{ width:600px; height:505px; float:left; position:relative; z-index:2}
+.lc-box .time{text-align: center; overflow:hidden; width:84px; height:104px; border:8px solid #005bac; padding:0 10px; position:absolute; background-color:#fff;}
+.lc-box .time span{ display:block; font-size:36px; color:#555; margin-top:20px;}
+.lc-box .time em{ font-size:18px; color:#777;}
+.lc-box .lc-list i{ display:block; width:24px; height:24px; background:url(Img/inpage/about/lc-s01.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/lc-s01.png*/ no-repeat center; position:absolute}
+.lc-box .wenbox{ overflow:hidden; width:395px; height:395px; padding:45px; background-color:#fff; position:absolute}
+.lc-box .wenbox ul{ overflow:hidden; width:100%; height:100%; overflow-y:auto; padding-right:20px;}
+.lc-box .wenbox h3{ font-size:18px; color:#555; margin-bottom:5px;}
+.lc-box .wenbox h3 em{ font-size:30px; color:#e60012;}
+.lc-box .wenbox p{ font-size:14px; color:#555; line-height:20px;}
+.lc-box .wenbox li{ overflow:hidden; width:100%; margin-bottom:20px;}
+.lc-box .lc-br .time{ right:-61px; top:0}
+.lc-box .lc-br .wenbox{ left:0; top:0}
+.lc-box .lc-br i{ left:473px; top:40px}
+.lc-box .lc-bl .time{ left:-61px; top:365px}
+.lc-box .lc-bl .wenbox{ right:0; top:0}
+.lc-box .lc-bl i{ right:473px; top:422px}
+.lc-box .wenbox ul::-webkit-scrollbar{width:21px;}
+.lc-box .wenbox ul::-webkit-scrollbar-track{background:none;}
+.lc-box .wenbox ul::-webkit-scrollbar-thumb{background:url(Img/inpage/about/lc-sb.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/lc-sb.png*/ no-repeat center;}
+.lc-box .lc-list:hover .wenbox{ background-color:#005bac}
+.lc-box .lc-list:hover i{ background:url(Img/inpage/about/lc-s02.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/lc-s02.png*/ no-repeat center;}
+.lc-box .lc-list:hover .wenbox p,
+.lc-box .lc-list:hover .wenbox h3,
+.lc-box .lc-list:hover .wenbox em{ color:#fff;}
+
+.lc-more{ overflow:hidden; width:50px; height:108px; background:url(Img/inpage/about/lc-more.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/lc-more.png*/ no-repeat center top ; cursor:pointer; margin:0 auto}
+
+/*company.html*/
+.cp-wen { overflow:hidden; width:1200px; margin:0 auto; padding:0 40px; padding-bottom:40px; background:url(Img/inpage/about/cp01.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/cp01.png*/ no-repeat right bottom;}
+.cp-wen h3{ font-weight:normal; font-size:24px; color:#555; margin-bottom:10px;}
+.cp-wen p{ font-size:14px; color:#333; line-height:25px; padding-bottom:25px; border-bottom:1px solid #e7e7e7; margin-bottom:25px;}
+.cp-wen .wen{ overflow:hidden; float:left; width:545px; text-align:justify; font-size:14px; line-height:26px; color:#777;}
+.cp-wen .wen02{ float:right}
+
+.cp-num { overflow:hidden; width:100%; background-color:#1144a3; margin-bottom:50px;}
+.cp-num img{ display:block; width:100%;}
+.cp-num ul{ overflow:hidden; width:1200px; margin:75px auto; height:115px;}
+.cp-num li{ float:left; width:399px; float:left; border-right:1px solid #4169b5; text-align:center; height:100%; color:#fff;}
+.cp-num li span{ font-size:80px; line-height:80px;}
+.cp-num li em{ font-size:14px; color:#9db9ef}
+.cp-num li p{ font-size:16px; margin-top:15px;}
+.cp-num .last{ border:none}
+
+.cp-jd { overflow:hidden; width:1380px; margin:0 auto; height:300px; position:relative}
+.cp-jd i{ display:block; width:50px; height:50px; cursor:pointer; position:absolute; top:100px;}
+.cp-jd .btn01{ background:url(Img/Index/pro_btn01.png)/*tpa=http://www.badese.com/Skins/Default/Img/Index/pro_btn01.png*/ no-repeat center top; left:0}
+.cp-jd .btn02{ background:url(Img/Index/pro_btn02.png)/*tpa=http://www.badese.com/Skins/Default/Img/Index/pro_btn02.png*/ no-repeat center top; right:0}
+.cp-jd i:hover{ background-position:bottom}
+.cp-jd .cp-win{ overflow:hidden; width:1200px; margin:0 auto; height:300px; position:relative}
+.cp-jd .cp-win ul{ overflow:hidden; position:absolute}
+.cp-jd .cp-win li{ float:left; width:386px; height:300px; margin-right:21px; text-align:center}
+.cp-jd .cp-win li span{ display:block; width:386px; height:251px; position:relative; overflow:hidden; margin-bottom:12px;}
+.cp-jd .cp-win li a{ display:block; text-decoration:none; text-align:center; font-size:14px; color:#555}
+
+/*cultrue.html*/
+.cl-list { overflow:hidden; width:100%; border-top:1px solid #e8e8e8; height:230px;}
+.cl-list img{ display:block; margin-top:65px; margin-bottom:10px;}
+.cl-list h3{ font-weight:normal; font-size:22px; color:#555;}
+.cl-list p{ font-size:14px; color:#777; margin-top:10px;}
+.cl-list ul{ overflow:hidden; width:1200px; margin:0 auto;}
+.cl-list li{ display:block; width:259px; height:230px; border-left:1px solid #e8e8e8; padding-left:40px; text-align:left; float:left;}
+.cl-list .lifa{ background-color:#fafafa}
+.cl-list .last{ border-right:1px solid #e8e8e8; width:258px;}
+.cl-list .lilen{ width:558px;}
+
+.cl-jiegou { overflow:hidden; width:100%; height:740px; background:url(Img/inpage/about/cl_bg.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/cl_bg.jpg*/ no-repeat center top;}
+.cl-jiegou ul{ overflow:hidden; width:1220px; margin:0 auto; margin-top:50px;}
+.cl-jiegou li{ overflow:hidden; float:left; padding:35px; width:520px; height:230px; margin:10px; overflow:hidden; position:relative}
+.cl-jiegou .li01{ background:url(Img/inpage/about/cl-01.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/cl-01.jpg*/ no-repeat center;}
+.cl-jiegou .li02{ background:url(Img/inpage/about/cl-02.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/cl-02.jpg*/ no-repeat center;}
+.cl-jiegou .li03{ background:url(Img/inpage/about/cl-03.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/cl-03.jpg*/ no-repeat center;}
+.cl-jiegou .li04{ background:url(Img/inpage/about/cl-04.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/cl-04.jpg*/ no-repeat center;}
+.cl-jiegou h3{ font-weight:normal; font-size:24px; color:#fff; margin-bottom:5px; position:relative; z-index:1}
+.cl-jiegou em{ display:none; font-size:12px; color:#555; font-family:Arial; text-transform:uppercase; position:relative; z-index:1}
+.cl-jiegou i{ display:none; width:30px; height:1px; background-color:#1144a3; margin:20px 0; position:relative; z-index:1}
+.cl-jiegou p{ display:none; font-size:14px; color:#555; line-height:25px; text-align:justify; position:relative; z-index:1}
+.cl-jiegou b{ display:none; width:590px; height:300px; background-color:#fff; opacity:0.9; position:absolute; left:0; top:0}
+.cl-jiegou li:hover h3 { color:#333}
+.cl-jiegou li:hover em,.cl-jiegou li:hover i,.cl-jiegou li:hover p,.cl-jiegou li:hover b{ display:block}
+
+
+/*honor.html*/
+.honor-p { overflow:hidden; width:960px; margin:0 auto; font-size:14px; color:#555; line-height:25px; margin-bottom:40px; text-align:center;}
+
+.honor-box { overflow:hidden; width:990px; margin:0 auto; padding:0 105px; padding-bottom:55px; background:url(Img/inpage/about/ry-bg.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/ry-bg.png*/ no-repeat center bottom; margin-bottom:30px;}
+.honor-box .honor-list{ overflow:hidden; width:270px; margin:0 30px; float:left;}
+.honor-box .honor-list img{ display:block; padding:15px 16px 36px 16px; background:url(Img/inpage/about/ry-k.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/ry-k.png*/ no-repeat center top; margin-bottom:15px;}
+.honor-box .honor-list span{ display:block; text-align:center; font-size:16px; color:#555; white-space:nowrap;}
+
+/*probase.html*/
+.pd-box { overflow:hidden; width:100%; height:552px; position:relative; padding-bottom:30px;}
+.pd-box i{ display:block; width:50px; height:90px; cursor:pointer; position:absolute; z-index:120; top:50%; margin-top:-55px;}
+.pd-box .pd-btn01{ background:url(Img/inpage/about/btn01.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/btn01.png*/ no-repeat center top; left:28%}
+.pd-box .pd-btn02{ background:url(Img/inpage/about/btn02.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/btn02.png*/ no-repeat center top;right:28%}
+.pd-box i:hover{ background-position:bottom}
+.pd-box .list{ background-color:#000; position:absolute;}
+.pd-box .list img{ display:block; opacity:0.5; filter:alpha(opacity=50);}
+.pd-box .list span{ display: block; width:100%; position:absolute; left:0; bottom:28px; background:url(Img/inpage/about/pb-02.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/pb-02.png*/ repeat center; height:70px; text-align:center; line-height:70px; color:#fff; font-size:16px;}
+.pd-box .list.active{ background:url(Img/inpage/about/pb-03.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/pb-03.png*/ no-repeat center bottom;padding-bottom:28px;box-shadow: 12px 11px 10px rgba(0,0,0,.65)}
+.pd-box .list.active img{ opacity:1; filter:alpha(opacity=100)}
+
+/*ceo.html*/
+.ceo-left { width:350px; float:left; overflow:hidden; padding-left:281px; margin-left:-281px; padding-bottom:250px; background:url(Img/inpage/about/ceo_bg.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/ceo_bg.png*/ no-repeat 76px bottom;}
+.ceo-left img{ display:block; margin-bottom:20px;}
+.ceo-left h3{ font-weight:normal; font-size:18px; color:#333; margin-bottom:10px;}
+.ceo-left i{ display:block; width:30px; height:1px; background-color:#b0b0b0; margin-bottom:30px;}
+.ceo-left .ceo-zr{ overflow:hidden; width:100%; position:relative;}
+.ceo-left .ceo-zr em{ display:block; width:1px; height:93%; background-color:#e2e2e2; position:absolute; left:4px; top:10px;}
+.ceo-left .ceo-zr p{ font-size:14px; line-height:26px; color:#555; padding-left:24px; background:url(Img/inpage/about/ceo_y.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/ceo_y.png*/ no-repeat left center; position:relative; z-index:1}
+
+.ceo-wen{ overflow:hidden; float:right; width:780px; margin-right:45px; font-size:14px; line-height:26px; color:#555; text-align:justify; margin-bottom:80px;}
+.ceo-wen img{ display:block; float:right}
+
+/*picture.html*/
+.pt-tu { overflow:hidden; width:1200px; height:550px; margin:0 auto; margin-bottom:60px; position:relative}
+.pt-tu i{ display:block; width:50px; height:90px; cursor:pointer; position:absolute; top:230px; z-index:2}
+.pt-tu .btn01{ background:url(Img/inpage/about/btn01.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/btn01.png*/ no-repeat center top; left:0;}
+.pt-tu .btn02{ background:url(Img/inpage/about/btn02.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/btn02.png*/ no-repeat center top; right:0;}
+.pt-tu i:hover{ background-position:bottom}
+.pt-tu ul{ overflow:hidden; position:absolute}
+.pt-tu li{ float:left; width:1200px; height:550px; overflow:hidden; position:relative}
+.pt-tu li img{ display:block}
+.pt-tu li span{ display:block; width:100%; height:60px; text-align:center; line-height:60px; font-size:16px; color:#fff; background:url(Img/inpage/about/pb-02.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/pb-02.png*/ repeat center; position:absolute; left:0; bottom:0;}
+
+.pt-fc { overflow:hidden; width:1200px; height:386px; margin:0 auto; margin-bottom:60px;}
+.pt-fc .listleft{ overflow:hidden; width:595px; height:386px; float:left; position:relative; margin-right:5px;}
+.pt-fc .list{ overflow:hidden; position:relative; width:293px; height:190px; float:left; margin-left:7px; margin-bottom:7px;}
+.pt-fc span{ display:block; width:100%; height:50px; text-align:center; line-height:50px; background:url(Img/inpage/about/pb-02.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/pb-02.png*/ repeat center; font-size:16px; color:#fff; position:absolute; left:0; bottom:0;}
+
+.pt-hl { overflow:hidden; width:1200px; height:490px; margin:0 auto; position: relative}
+.pt-hl i{ display:block; width:50px; height:90px; cursor:pointer; position:absolute; z-index:3; top:185px;}
+.pt-hl .btn01{ background:url(Img/inpage/about/btn01.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/btn01.png*/ no-repeat center top; left:0}
+.pt-hl .btn02{ background:url(Img/inpage/about/btn02.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/btn02.png*/ no-repeat center top; right:0}
+.pt-hl i:hover{ background-position:bottom;}
+.pt-hl .list{ overflow:hidden; background-color:#000; position:absolute}
+.pt-hl .list img{ display:block; opacity:0.5;filter:alpha(opacity=50);}
+.pt-hl .active img{ opacity:1; filter:alpha(opacity=100)}
+.pt-hl .list p{ font-size:16px; text-align:center; color:#555; margin-top:15px;}
+.pt-hl .active { background:none}
+
+ .ny_down02{ width:1200px; margin-left: auto;margin-right: auto;}
+  .ny_down03{ overflow:hidden; width:386px;height:130px; float:left; padding:0px; margin-right:20px; margin-bottom:20px;background-color:#ededed;}
+  .ny_down03 dd{ width:274px; float:left; height:130px; padding:0 21px;}
+  .ny_down03 dt{ width:70px; float:right; height:130px;}
+ .ny_down03 dd h5{ font-size:16px; font-weight:normal; margin-top:25px; margin-bottom:15px;}
+ .ny_down03 dd h5 a { color:#333;}
+  .ny_down03 dd span{ display:block; line-height:18px; font-size:12px; color:#999; margin-bottom:3px;}
+ .ny_down03 dt i{ display:block; cursor:pointer; width:34px; height:35px; margin:0 auto; margin-top:40px; background:url(Img/nydown_d.png)/*tpa=http://www.badese.com/Skins/Default/Img/nydown_d.png*/ no-repeat center  top;}
+  .ny_down03:hover dd{ background-color:#1651b9;}
+ .ny_down03:hover dd h5 a{ color:#fff;}
+ .ny_down03:hover dd span{ color:#fff;}
+  .ny_down03:hover dt i{ background-position:bottom;}
+ .ny_down03:hover dt{ background-color:#d1241c;}
+  .ny_down03.last{ margin-right:0px;}
+  
+/*新闻中心*/
+.newsp02 { overflow:hidden; width:100%; padding:65px 0;}
+.newsp02 .p02box{ overflow:hidden; margin-top:50px; width:100%; height:390px; position:relative; margin-bottom:40px;}
+.newsp02 .p02box ul{ overflow:hidden; position:absolute}
+.newsp02 .p02box li{ float:left; width:340px; height:390px; margin-right:90px;}
+.newsp02 .p02box li img{ display:block; margin-bottom:30px;}
+.newsp02 .p02box li h4{ font-weight:normal; font-size:16px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; margin-bottom:5px;}
+.newsp02 .p02box li h4 a{ color:#333;}
+.newsp02 .p02box li span{ display:block; font-size:14px; color:#777; padding-bottom:18px; border-bottom:1px solid #e2e2e2; margin-bottom:20px;}
+.newsp02 .p02box li p{ font-size:14px; line-height:22px; color:#666; height:66px; overflow:hidden; text-align:justify;}
+.newsp02 .p02box li:hover h4 a{ color:#1a46a1;}
+.newsp02 .btnbox{ overflow:hidden; width:100%; text-align:center;}
+.newsp02 .btnbox i{ display:inline-block; width:10px; height:18px; cursor:pointer; margin:0 15px;}
+.newsp02 .btnbox .btn01{ background:url(Img/inpage/news/index_btn02.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/news/index_btn02.png*/ no-repeat center top;}
+.newsp02 .btnbox .btn02{ background:url(Img/inpage/news/index_btn03.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/news/index_btn03.png*/ no-repeat center top;}
+.newsp02 .btnbox .btn{ display:inline-block; overflow:hidden}
+.newsp02 .btnbox .btn span{ display:inline-block; width:15px; height:15px; background:url(Img/inpage/news/index_btn01.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/news/index_btn01.png*/ no-repeat right center; margin:0 3px; cursor:pointer}
+.newsp02 .btnbox .btn span.cur{ background-position:left}
+.newsp02 .btnbox i,.newsp02 .btnbox .btn,.newsp02 .btnbox .btn span{ *display:inline}
+.newsp02 .btnbox i:hover{ background-position:bottom}
+.newsp02.hangye{ background-color:#f4f4f4}
+.newsp02.hangye .p02box{ height:190px;}
+
+.yingx{background-color: #f4f4f4;}
+.yingxiang { overflow:hidden; width:1200px; margin:0 auto;}
+.yingxiang .yxbox{ overflow:hidden; margin-top:40px;}
+.yingxiang .listbg{ overflow:hidden; width:400px; height:360px; float:left; position:relative; margin-right:10px;}
+.yingxiang .listbg img{ display:block;}
+.yingxiang .listbg .name{ overflow:hidden; width:100%; height:70px; background:url(Img/inpage/news/index04.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/news/index04.png*/ repeat center; position:absolute; left:0; bottom:0;}
+.yingxiang .listbg h3{ font-size:16px; color:#fff; float:left; line-height:70px; margin-left:25px;}
+.yingxiang .listbg .name img{ float:right; margin-right:25px; margin-top:20px;}
+.yingxiang .listbg a{ display:block; width:100%; height:100%; position:absolute; left:0; top:0; z-index:2}
+.yingxiang .listsm{ overflow:hidden; width:380px; height:360px; float:right;position: relative;}
+.yingxiang .listsm .slists{ overflow:hidden; width:100%; height:175px; margin-bottom:10px;}
+.yingxiang .listsm .slists .tu{ display:block; float:left; width:190px; height:175px; position:relative}
+.yingxiang .listsm .slists .tu img{ display:block}
+.yingxiang .listsm .slists .tu .icon{ position:absolute; left:65px; top:56px;}
+.yingxiang .listsm .slists .wen{ overflow:hidden; width:149px; height:173px; border:1px solid #cecece; border-left:none; padding:0 20px;}
+.yingxiang .listsm .slists h3{ font-size:16px; text-align:justify; line-height:25px; height:50px; margin-bottom:30px; margin-top:35px; overflow:hidden}
+.yingxiang .listsm .slists h3 a{ color:#333}
+.yingxiang .listsm .slists em{ font-size:12px; color:#888; padding-left:16px; background:url(Img/inpage/news/index_time.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/news/index_time.png*/ no-repeat left center;}
+
+/*新闻相关页面的主题框架--左右结构*/
+.newsContent { overflow:hidden; width:1200px; margin:0 auto; margin-bottom:90px;     margin-top: -50px}
+.newsContent .newslist_left { overflow:hidden; float:left; width:810px; padding-right:40px; border-right:1px solid #e9e9e9; padding-top:60px;}
+.newsContent .newslist_right { overflow:hidden; width:310px; float:right; margin-top:60px;}
+.newsContent .newslist_right>h4{ font-weight:normal; font-size:24px; color:#555; margin-bottom:20px;}
+.newsContent .newslist_right .zw_tu{ display:block; margin:0 auto;}
+dl.top{ overflow:hidden; width:100%; padding-bottom:30px; border-bottom:1px solid #e9e9e9; margin-bottom:30px; height:192px;}
+dl.top dt{ overflow:hidden; float:left; width:320px; height:192px;}
+dl.top dd{ overflow:hidden; float:right; width:470px; height:190px;}
+dl.top dd h4{ font-size:18px; margin-bottom:15px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+dl.top dd h4 a{ color:#333;}
+dl.top dd em{ display:block; font-size:12px; color:#999; margin-bottom:15px;}
+dl.top dd em i{ margin:0 5px;}
+dl.top dd p{ font-size:14px; color:#666; line-height:24px; height:72px; overflow:hidden; text-align:justify; margin-bottom:10px;}
+dl.top dd .more{ display:block; width:116px; height:31px; line-height:31px; text-align:center; font-size:12px; color:#999; font-family:Arial; border:2px solid #e9e9e9; text-decoration:none}
+dl.top:hover .more{ color:#fff; border-color:#1144a3; background-color:#1144a3}
+dl.top.last{ margin-bottom:0}
+dl.top:hover h4 a {color:#1144a3;}
+/*rili*/
+.rili { border-top-left-radius: 5px;border-top-right-radius: 5px;overflow:hidden; width:310px; height:355px; background:url(Img/inpage/news/rili.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/news/rili.png*/ no-repeat right bottom; margin-bottom:10px;}
+.rili .year{ overflow:hidden; width:150px; margin:20px auto; }
+.rili .year i{ display:block; width:20px; height:40px; cursor:pointer;}
+.rili .year .btn_left{ background: url(Img/inpage/news/inpage_rili_btn01.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/news/inpage_rili_btn01.png*/ no-repeat center; float:left}
+.rili .year .btn_right{ background:url(Img/inpage/news/inpage_rili_btn02.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/news/inpage_rili_btn02.png*/ no-repeat center; float:right;}
+.rili .year .btn_left:hover{ background: url(Img/inpage/news/inpage_rili_btn01l.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/news/inpage_rili_btn01l.png*/ no-repeat center; float:left}
+.rili .year .btn_right:hover{ background:url(Img/inpage/news/inpage_rili_btn02l.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/news/inpage_rili_btn02l.png*/ no-repeat center; float:right;}
+.rili .year span{ display:block; width:110px; height:40px; font-size:30px; color:#555; text-align:center; line-height:40px; font-weight:bold; font-family:Arial; float:left;}
+.rili .month{ overflow:hidden; width:260px; margin:0 auto; height:170px; margin-bottom:30px;}
+.rili .month li{ float:left; width:53px; height:48px; text-align:center; line-height:50px; background-color:#fff; color:#555; margin:0 5px 10px 5px;border: solid 1px #d5d5d5; cursor:pointer}
+.rili .month li b{ font-size:28px; font-weight:normal; font-family:Arial}
+.rili .month li em{ font-size:12px;}
+.rili a{border: solid 1px #d5d5d5; display:block; margin:0 auto; width:200px; height:45px; text-align:center; line-height:45px; background-color:#fff; font-size:16px; color:#333; font-weight:bold; text-decoration:none;}
+.rili .month li.cur,.rili .month li:hover{ background-color:#1144a3; color:#fff;}
+.rili a:hover{background-color:#1a46a1;color:#fff;text-decoration:none;}
+/*新闻搜索框*/
+.news_search{ overflow:hidden; width:290px; padding:10px; height:55px; background-color:#f5f5f5; margin-bottom:30px;}
+.news_search input{ display:block; border:none; outline:none; width:213px; height:55px; line-height:55px; padding:0 10px; float:left}
+.news_search span{ display:block; width:57px; height:55px; cursor:pointer; background: url(Img/inpage/news/news_search.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/news/news_search.png*/ no-repeat center; float:right;}
+/*最新动态*/
+.news_new { overflow:hidden; width:280px; padding:25px 15px; background-color:#f5f5f5; margin-bottom:10px;}
+.news_new li{ width:100%; line-height:40px; font-size:14px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+.news_new li a{ color:#666;}
+.news_new li i{ display:inline-block; width:3px; height:3px; background-color:#999; margin-right:10px; position:relative; top:-5px;}
+.news_new li i{ display:*inline}
+dl.swyx{ overflow:hidden; width:50%; float:left;margin-bottom: 20px;}
+dl.swyx dt{ overflow:hidden; float:left; width:360px; height:324px;}
+dl.swyx dd{ overflow:hidden;  width:360px; }
+dl.swyx dd h4{ font-size:18px; margin-bottom:15px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;text-align:center; margin-top: 20px;}
+dl.swyx dd h4 a{ color:#333;}
+/*新闻详细页*/
+.newslist_content { overflow:hidden; width:1200px; margin:0 auto; margin-bottom:90px; margin-top:-50px;}
+.newslist_left { overflow:hidden; float:left; width:810px; padding-right:40px; border-right:1px solid #e9e9e9; padding-top:60px;}
+.newslist_right { overflow:hidden; width:310px; float:right; margin-top:30px;}
+.newslist_right>h4{ font-weight:normal; font-size:24px; color:#555; margin-bottom:20px;}
+.newslist_right .zw_tu{ display:block; margin:0 auto;}
+.newslist_right>a{display:block;}
+h2.wen_h2{ text-align:center; font-size:34px; color:#333; margin-bottom:25px;}
+.xq_share{ overflow:hidden; padding:15px 0; border-top:1px solid #e9e9e9; border-bottom:1px solid #e9e9e9; margin-bottom:50px;}
+.xq_share p{ float:left; font-size:12px; color:#999; line-height:34px;}
+.xq_share p i{ margin:0 5px;}
+.xq_share p img{ margin-left:10px;}
+.xq_share span{ display:block; float:right; font-size:12px; color:#999;    position: relative;top: 13px;}
+.xq_share span img{ margin-left:10px; position:relative; top:3px;}
+.news_wen{ overflow:hidden; width:100%; margin-bottom:60px;}
+.news_wen p{ line-height:24px; font-size:14px; color:#333; text-indent:28px; margin-bottom:10px;}
+.page_wen{ overflow:hidden; width:100%; height:60px; line-height:60px; font-size:14px;}
+.page_wen .page_left{ float:left; width:390px; background-color:#f7f7f7;}
+.page_wen .page_right{ float:right; width:390px; background-color:#f7f7f7;}
+.page_wen .btn{ display:block; text-decoration:none; width:80px; height:60px; background-color:#e8e8e8; text-align:center;}
+.page_wen .page_title{ display:block; width:270px; margin-left:20px; float:left;height:60px; overflow:hidden}
+.page_wen .page_left:hover  .page_title{color:#1144a3;}
+.page_wen .page_left:hover  .btn{ background:#1144a3; color:#fff;}
+.page_wen .page_right:hover  .page_title{color:#1144a3;}
+.page_wen .page_right:hover  .btn{ background:#1144a3; color:#fff;}
+.page_wen .page_left .btn{ float:left}
+.page_wen .page_right .btn{ float:right}
+.xg_news{ overflow:hidden; width:280px; margin:0 auto; padding:35px 15px; margin-bottom:10px; background-color:#f5f5f5;}
+.xg_news .xg_list{ overflow:hidden; padding-bottom:25px; margin-bottom:15px; border-bottom:1px solid #1144a3;}
+.xg_news .xg_list h5{ font-size:16px; margin-bottom:15px; text-overflow:ellipsis; overflow:hidden; text-overflow:ellipsis;}
+.xg_news .xg_list h5 a{ color:#333;}
+.xg_news .xg_list h5 a:hover{color:#1144a3;}
+.xg_news .xg_list p{ font-size:14px; color:#666; line-height:24px; height:48px; overflow:hidden; margin-bottom:10px;}
+.xg_news .xg_list em{ display:block; font-size:12px; color:#999; font-family:Arial;}
+.xg_news .xg_list.last{ border:none; margin-bottom:0; padding-bottom:0}
+
+
+.tsxmzBox{ overflow:hidden; width:100%;}
+
+.pc-ej{ overflow:hidden; width:1160px; padding:20px; background:#fff; margin:0 auto; margin-bottom:20px;}
+.pc-ej a{ display:block; float:left; margin:5px 10px; text-decoration:none; white-space:nowrap; font-size:13px; color:#333; padding:5px; border-radius:3px;}
+.pc-ej a.cur,.pc-ej a:hover{ background-color:#1651b9; color:#fff;}
+
+
+.inmenu { overflow:hidden; width:100%; position:relative; margin:50px 0 20px 0;}
+.inmenu em{ display:block; width:100%; height:1px; position:absolute; left:0; bottom:1px; background-color:#cdd8e8;}
+.inmenu ul{ overflow:hidden; margin:0 auto; position: relative; z-index:2; width:100%;text-align: center;}
+.inmenu li{ display:inline-block;  margin:0 10px;}
+.inmenu li{*display:inline;}
+.inmenu li a{ display:block; font-size:14px; color:#777; padding:10px 20px; border-radius:3px; margin-bottom:5px; text-align:center; text-decoration:none}
+.inmenu li i{display:inline-block; *display:inline;*zoom:1; width:1px ; height:30px; background-color:#cdd8e8; margin:0 auto; margin-bottom:4px;}
+.inmenu li b{ display:block;*display:inline-block; width:3px; height:3px; background-color:#b2c0d5; margin:0 auto;}
+.inmenu li.cur a,.inmenu li:hover a{ background-color:#1651b9; color:#fff;}
+.inmenu li.cur,.inmenu li:hover{ display:inline-block;}
+.inmenu li.cur,.inmenu li:hover{*display:inline;*zoom:1}
+
+.in_ry02{ overflow:hidden; width:100%; }
+.in_ry02 .in_ry02Box{ overflow:hidden; width:1200px; margin:0 auto;}
+.in_ry02 .ry{overflow:hidden; width:1200px; margin:0 auto;}
+.in_ry02 .ry h3{ font-size:20px; color:#333; margin-bottom:15px; float:left; }
+.in_ry02 .ryAniu{ width:54px; height:27px; position:relative; float:right;}
+.in_ry02 .ryAniu span{ display:block; width:24px; height:24px; position:absolute;}
+.in_ry02 .ryAniu span:hover{ background-position:bottom;}
+.in_ry02 .mrybox{ overflow:hidden; width:1200px;}
+.in_ry02 .ry_list{ overflow:hidden; width:105%;}
+.in_ry02 .ry_list li{ overflow:hidden; width:285px;  margin-right:20px; float:left; margin-bottom:25px;  }
+.in_ry02 .ry_list li img{ display:block;}
+.in_ry02 .ry_list li a{ display:block; color:#555555; text-align:center; line-height:30px;}
+
+.in_ry02  .yp_tk { display:none; overflow:hidden; width:100%; height:100%; position:fixed; left:0; top:0; background:url(Img/inpage/about/in_ry_tk_bg.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/in_ry_tk_bg.png*/ repeat center; z-index:5000} 
+.in_ry02  .yp_tk  dl{ position: absolute; left:50%; top:50%; margin-left:-600px; margin-top:-270px;width:1100px; height:520px; background-color:#fff;}
+.in_ry02  .yp_tk  dt{ width:840px; height:520px; float:left;position:relative; overflow:hidden}
+.in_ry02  .yp_tk  dt img{ display:block; margin:0 auto; padding:9px; border:1px solid #eaeaea; margin-top:50px;}
+.in_ry02  .yp_tk  dt tt{background:#000;color:#FFF;position:absolute;right:162px;bottom:68px;z-index:20;font-family:"宋体" ;font-size:12px;line-height:16px;padding:0 5px;}
+.in_ry02  .yp_tk  dd{ width:200px; height:420px; padding:50px 30px; float:right; background-color:#e8eff9;}
+.in_ry02  .yp_tk  dd h4{ font-size:18px; color:#1e4fa2; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #c1cee1;}
+.in_ry02  .yp_tk  dd p{ font-size:14px; color:#555; line-height:26px; margin-bottom:50px;}
+.in_ry02  .yp_tk  dd span a{ text-decoration:none; display:block; width:100%; height:46px; background-color:#1f58be; text-align:center; line-height:46px; font-size:14px; color:#fff; cursor:pointer;}
+.in_ry02  .yp_tk  dd span a:hover{text-decoration:none; display:block; width:100%; height:46px; background-color:#d1241c; text-align:center; line-height:46px; font-size:14px; color:#fff; cursor:pointer;}
+.in_ry02  .yp_tk dt i{ cursor:pointer; display:block; width:20px; height:40px; position:absolute; top:240px;}
+.in_ry02  .yp_tk dt .btn01{ background:url(Img/inpage/about/in_ry_tk_btnLt.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/in_ry_tk_btnLt.png*/ no-repeat center top; left:50px;}
+.in_ry02  .yp_tk dt .btn02{ background:url(Img/inpage/about/in_ry_tk_btn.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/in_ry_tk_btn.png*/ no-repeat center top; right:50px;}
+.in_ry02  .yp_tk dt .btn01:hover{ background:url(Img/inpage/about/in_ry_tk_btnLt.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/in_ry_tk_btnLt.png*/ no-repeat center bottom; left:50px;}
+.in_ry02  .yp_tk dt .btn02:hover{ background:url(Img/inpage/about/in_ry_tk_btn.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/in_ry_tk_btn.png*/ no-repeat center bottom; right:50px;}
+.in_ry02  .yp_tk  .close{ cursor:pointer; overflow:hidden; width:30px; height:30px; background:url(Img/inpage/about/in_ry_tk_close.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/in_ry_tk_close.png*/ no-repeat center; position:absolute; right:-35px; top:0;}
+
+.pageBox { overflow:hidden; width:100%; padding-bottom:50px;}
+._tybox { overflow:hidden; width:1200px; margin:0 auto; background-color:#f2f2f2; margin-bottom:20px;}
+._tylist { overflow:hidden; width:1140px; padding:30px;}
+._tylist h3{ font-size:24px; color:#333; margin-bottom:20px;}
+._tylist .img_tu{ overflow:hidden; width:846px; height:550px; float: left;}
+._tylist ._ty_ch{ overflow:hidden; width:264px; float:right; height:550px;}
+._tylist ._ty_ch i{ display:block; cursor:pointer; width:100%; height:50px;}
+._tylist ._ty_ch .btn01{ background:url(Img/inpage/product/_ty_btn01.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/product/_ty_btn01.png*/ no-repeat center top;}
+._tylist ._ty_ch .btn02{ background:url(Img/inpage/product/_ty_btn02.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/product/_ty_btn02.png*/ no-repeat center top;}
+._tylist ._ty_ch i:hover{ background-position:bottom}
+._tylist ._tywin{ overflow:hidden; width:100%; height:420px; margin:15px 0; position:relative;}
+._tylist ._tywin ul{ overflow:hidden; width:100%; position:absolute; left:0; top:0}
+._tylist ._tywin li{ float:left; padding:10px; width:244px; height:74px; background-color:#fff; margin-bottom:15px; line-height:74px; font-size:14px; color:#666;}
+._tylist ._tywin li img{ margin-left: 82px; display:block; float:left}
+._tylist ._tywin li em{ float:left;}
+._tylist ._tywin li:hover{ background-color:#e60012; color:#fff;}
+
+.xg_case { overflow:hidden; width:1200px; overflow:hidden; margin:0 auto}
+.xg_case ._toptu { overflow:hidden; width:100%; height:487px; background:url(Img/xiugai/jz01.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/xiugai/jz01.jpg*/ no-repeat right bottom; background-color:#fff; margin-bottom:10px; position:relative}
+
+.xg_case ._toptu .dbn{ display:block; width:50px; height:90px; cursor:pointer; position:absolute; z-index:120; top:50%; margin-top:-55px; z-index:5}
+.xg_case ._toptu .dbn01{ background:url(Img/inpage/about/btn01.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/btn01.png*/ no-repeat center top; left:0; }
+.xg_case ._toptu .dbn02{ background:url(Img/inpage/about/btn02.png)/*tpa=http://www.badese.com/Skins/Default/Img/inpage/about/btn02.png*/ no-repeat center top; left:700px; }
+.xg_case ._toptu dbn:hover{ background-position:bottom}
+
+.xg_case ._toptu img{ display:block; float:left;}
+.xg_case ._toptu .wen{ overflow:hidden; float:right; width:370px; margin-right:40px;}
+.xg_case ._toptu h3{ font-weight:normal; font-size:22px; color:#1144a3; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #cecece; margin-top:50px}
+.xg_case ._toptu p{ font-size:14px; color:#666; line-height:25px; max-height:275px; overflow:hidden; margin-bottom:40px;}
+.xg_case ._toptu a{ display:block; width:200px; height:50px; text-align:center; line-height:50px; background-color:#1144a3; font-size:12px; color:#fff; text-decoration:none}
+.xg_case ._list{ overflow:hidden; width:100%; height:134px;}
+.xg_case ._list .btn{ display:block; width:50px; height:134px; cursor:pointer;}
+.xg_case ._list .btn01{ background:url(Img/xiugai/btn01.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/xiugai/btn01.jpg*/ no-repeat center top; float:left}
+.xg_case ._list .btn02{ background:url(Img/xiugai/btn02.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/xiugai/btn02.jpg*/ no-repeat center top; float:right}
+.xg_case ._list .btn:hover{ background-position:bottom}
+.xg_case ._list ._win{ overflow:hidden; width:1080px; height:134px; position:relative; float:left; margin:0 10px;}
+.xg_case ._list ._win ul{ overflow:hidden; position:absolute; left:0; top:0}
+.xg_case ._list ._win li{ float:left; width:208px; height:134px; overflow:hidden; margin-right:10px; cursor:pointer; position:relative}
+.xg_case ._list ._win li i{ display:none; width:204px; height:130px; border:2px solid #1144a3; position:absolute; left:0; top:0;}
+.xg_case ._list ._win em,.xg_case ._list ._win span{ display:none}
+.xg_case ._list ._win li.cur i{ display:block}
+
+.xg_fzlc { overflow:hidden; width:100%;}
+.xg_fzlc ._lcTop{ overflow: hidden; width:1200px; height:350px; position:relative; margin:0 auto; margin-bottom:45px; background-color:#fff;}
+.xg_fzlc ._lcTop ul{ overflow:hidden; position:absolute; left:0; top:0}
+.xg_fzlc ._lcTop li{ float:left; width:1200px; height:350px; position:relative; overflow:hidden;}
+.xg_fzlc ._lcTop li img{ display:block; float:left;}
+.xg_fzlc ._lcTop li .wen{ overflow:hidden; width:575px; float:left; margin-left:35px; margin-top:35px; height:230px; border-bottom:1px solid #cecece;}
+.xg_fzlc ._lcTop li h3{ font-weight:normal; margin-bottom:14px; font-size:24px; color:#1a46a1;}
+.xg_fzlc ._lcTop li h3 em{ font-size:14px;}
+.xg_fzlc ._lcTop li .hezi{ overflow:hidden; width:560px; padding-right:15px; height:180px; overflow-y:auto}
+.xg_fzlc ._lcTop li p{ font-size:14px; color:#777; line-height:30px;}
+.xg_fzlc ._lcTop li span{ display:block; width:120px; height:35px; text-align:center; line-height:35px; font-size:16px; color:#fff; background-color:#1144a3; position:absolute; z-index:1; top:40px; border-radius:3px;}
+.xg_fzlc ._lcTop i{ display:block; cursor:pointer; position:absolute; top:300px; z-index:2; width:35px; height:30px;}
+.xg_fzlc ._lcTop .btn01{ background:url(Img/xiugai/lc_btn.png)/*tpa=http://www.badese.com/Skins/Default/Img/xiugai/lc_btn.png*/ no-repeat left center; right:85px;}
+.xg_fzlc ._lcTop .btn02{ background:url(Img/xiugai/lc_btn.png)/*tpa=http://www.badese.com/Skins/Default/Img/xiugai/lc_btn.png*/ no-repeat right center; right:40px;}
+.xg_fzlc ._lclist { overflow:hidden; width:100%; height:65px; position:relative}
+.xg_fzlc ._lclist i{ display:block; width:100%; height:1px; background-color:#cecece; position:absolute; left:0; top:8px;}
+.xg_fzlc ._lclist ul{ overflow:hidden; width:1200px; margin:0 auto; position:relative; z-index:1}
+.xg_fzlc ._lclist li{ overflow:hidden; width:52px; float:left; cursor:pointer; margin:0 68px;}
+.xg_fzlc ._lclist span{ display:block; width:16px; height:16px; background:url(Img/xiugai/lc_y01.png)/*tpa=http://www.badese.com/Skins/Default/Img/xiugai/lc_y01.png*/ no-repeat center; margin:0 auto; margin-bottom:5px;}
+.xg_fzlc ._lclist em{ display:block; text-align:center; font-size:13px; color:#777;}
+.xg_fzlc ._lclist li.cur span{ background:url(Img/xiugai/lc_y02.png)/*tpa=http://www.badese.com/Skins/Default/Img/xiugai/lc_y02.png*/ no-repeat center;}
+.xg_fzlc ._lclist li.cur em{ font-size:15px; color:#1144a3;}
+
+.xg_about{ overflow:hidden; width:1200px; padding:0 70px; padding-bottom:60px; margin:0 auto; background:url(Img/xiugai/a04.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/xiugai/a04.jpg*/ no-repeat right bottom;}
+.xg_about ._ab01{ overflow:hidden; width:100%; margin-bottom:30px;}
+.xg_about ._ab01 img{ display:block; float:right}
+.xg_about ._ab01 .wen{ overflow:hidden; width:570px; height:300px; padding-right:20px; float:left; background:url(Img/xiugai/a01.jpg)/*tpa=http://www.badese.com/Skins/Default/Img/xiugai/a01.jpg*/ no-repeat right bottom;}
+.xg_about ._ab02{ overflow:hidden; padding-bottom:30px; margin-bottom:25px; border-bottom:2px solid #ededed;}
+.xg_about ._ab02 img{ display:block; float:left}
+.xg_about ._ab02 .wen{ overflow:hidden; float:right; width:570px;}
+.xg_about h3{ font-size:24px; color:#555; font-weight:normal}
+.xg_about i{ display:block; width:30px; height:1px; background-color:#003c98; margin:20px 0;}
+.xg_about p{ font-size:14px; color:#777; line-height:25px; width:100%; text-align:justify}
+.xg_about b{ display:block; font-size:14px; color:#777; margin-top:30px;}
+
+
+.inryzz{ overflow:hidden;  border-radius:3px;margin-bottom: 50px;}
+.inryzz h3{ font-weight:normal; text-align:center; font-size:24px; margin-bottom:5px; color:#6c6c6c; margin-top:50px;}
+.inryzz em{ display:block; text-align:center; font-size:12px; color:#999; font-family:Arial; margin-bottom:10px;}
+.inryzz i{ display:block; width:70px; height:1px; background-color:#c42a22; margin:0 auto; margin-bottom:50px;}
+.prcity{width:370px;float:left;}
+.prcity select{width:120px;outline: none;}
+.list-group{width:370px;padding: 0; margin: 0;width: 99%;height:520px;overflow: auto;border-radius: 0px;}
+.xcollapse{border-radius:0px; background-color:#fff;padding: 10px;border: 1px solid #1144a3;}
+.xcollapse h4.xTitle{ color:#006bb2;}
+.xcollapse:hover{ background-color:#fff;}
+.xcollapse  .xContent p{ color:#747474;}
+
+/*about*/
+.about-box-Bg{ overflow: hidden; width: 100%;}
+.about-box-Bg .aB{ overflow: hidden; width: 1100px; margin-bottom: 30px; padding: 0 50px;}
+.about-box-Bg .aB-Con{ width: 500px; overflow: hidden}
+.about-box-Bg .aB-Con  h3{ font-size: 24px; font-weight: normal; margin-top: 65px; color: #333}
+.about-box-Bg .aB-Con  i{ width: 30px; background-color: #999; height: 2px;  margin-top: 20px; display: block}
+.about-box-Bg .aB-Con p{ font-size: 14px; color: #555555; line-height: 25px; margin-top: 25px; text-align: justify}
+.about-box-Bg .aBlist{ overflow: hidden; margin-top: 45px;}
+.about-box-Bg .aBlist li{ width: 160px; border-left:1px solid #e0e0e0; text-align: center; float: left;}
+.about-box-Bg .aBlist li h4{ font-size: 50px; color: #333333;}
+.about-box-Bg .aBlist li h4 b{ font-weight: normal; color: #555555; font-size: 12px;}
+.about-box-Bg .aBlist li span{ display: block; font-size: 12px; color: #555555;}
+.about-box-Bg .aB-Con a.more{ display: block; width: 40px; margin-top: 70px;}
+.about-box-Bg .aB01{ background: url("Img/Common/aBBg01.jpg")/*tpa=http://www.badese.com/Skins/Default/Img/Common/aBBg01.jpg*/ no-repeat center; height: 500px}
+.about-box-Bg .aB02{ background: url("Img/Common/aBBg02.jpg")/*tpa=http://www.badese.com/Skins/Default/Img/Common/aBBg02.jpg*/ no-repeat center; height: 356px}
+.about-box-Bg .aB03{ background: url("Img/Common/aBBg03.jpg")/*tpa=http://www.badese.com/Skins/Default/Img/Common/aBBg03.jpg*/ no-repeat center; height: 500px}
+.about-box-Bg .aBlist li:first-child{ text-align: left; border: none}
+.about-box-Bg .aBlist li:first-child span{ text-indent: 5px;}
+
+.aB-Bj{ overflow: hidden; width: 100%;}
+.aB-Bj h2{ font-weight: normal; line-height: 45px; font-size: 24px; color: #333}
+.aB-Bj .aB_bjBox{ overflow: hidden; width: 100%; margin: 10px 0; }
+.aB-Bj  .aBList_box{margin-left: 80px; width: 346px;  float: left;}
+.aB-Bj .aBList_box dt{ width: 346px; height: 220px; overflow: hidden}
+.aB-Bj .aBList_box dt img{ display: block}
+.aB-Bj .aBList_box dd{ margin-top: 22px;}
+.aB-Bj .aBList_box dd h3{font-size: 18px; }
+.aB-Bj .aBList_box dd h3 a{color: #333333; }
+.aB-Bj .aBList_box dd p{ line-height: 25px ; color: #666666; overflow: hidden; height: 50px; margin-top: 5px; font-size: 14px;}
+.aB-Bj .aBList_box:first-child{ margin-left: 0}
+
+
+/*定位*/
+.aB_dw{ overflow: hidden;  margin: 30px auto; width: 1200px;}
+.aB_dw .abDwBox{ width: 600px; text-align: center;}
+.aB_dw .abDwBox img{ display: block}
+.aB_dw .abDwBox h3{ font-size: 24px; font-weight: normal; line-height: 35px; color: #1144a3;}
+.aB_dw .abDwBox p{ line-height: 30px; color: #333333; font-size:16px;}
+.aB_dw .abDwBox:first-child{ background: url("Img/Common/abLine.jpg")/*tpa=http://www.badese.com/Skins/Default/Img/Common/abLine.jpg*/ no-repeat right center}
+
+
+.jsq-jsBox{ overflow: hidden; width: 1200px; margin: 30px auto 50px; background-color: #f8f8f8}
+.jsq-jsBox dt{ width: 320px; height: 351px; float: left;}
+.jsq-jsBox dt img{ display: block;}
+.jsq-jsBox dd{ width: 825px; float: right; margin-right: 30px;}
+.jsq-jsBox .jsq-jsUl{ overflow: hidden; width: 100%; margin-top: 28px;}
+.jsq-jsBox .jsq-jsUl li { width: 200px; float: left; margin-left: 20px;}
+.jsq-jsBox .jsq-jsUl li h3{ font-size: 16px; color: #333333; margin-bottom: 10px;}
+.jsq-jsBox .jsq-jsUl li select{ background: url("Img/Index/jsq_select.png")/*tpa=http://www.badese.com/Skins/Default/Img/Index/jsq_select.png*/ no-repeat center; width: 200px; height: 50px; font-size: 14px; color: #333333; line-height: 50px; text-indent: 20px; -moz-appearance: none; -webkit-appearance: none; outline: none}
+.jsq-jsBox .jsq-jsUl li select option{ font-size: 14px; color: #333333; line-height: 25px; text-indent: 20px; display: block;}
+.jsq-jsBox .jsq-jsUl li:first-child{ margin-left: 0}
+.jsq-jsBox .jsq-jsUl li input{ width: 140px; height: 46px; border: 2px solid #1144a3; background: none; padding: 0 10px; outline: none;}
+.jsq-jsBox .jsRest{ overflow: hidden; margin-top:28px;}
+.jsq-jsBox .jsRest h3{ font-size: 16px; color: #333333; }
+.jsq-jsBox .jsRest p{ font-size: 16px; color: #555; margin-top: 10px;}
+.jsq-jsBox .jsRest p b{ font-size: 30px; font-family: Arial; color: #1144a3; font-weight: normal}
+.jsq-jsBox .jsRest hr{ width: 100%; margin: 30px 0; background-color: #dbdbdb;}
+.jsq-jsBox .jsq_p h3{ font-size: 16px; color: #333}
+.jsq-jsBox .jsq_p p{ font-size: 14px; color: #555; line-height: 25px;}
+.jsq-jsBox .jsq_p p b{ width: 4px; height: 4px; background-color: #1144a3; margin-right: 5px; display: block; float: left; margin-top: 10px;}
+.jsq-jsBox .jsq-jsUl li.last{ width: 165px;}
