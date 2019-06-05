@@ -1,6 +1,5 @@
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -8,11 +7,64 @@
         亚特油漆涂料代理
     </title>
     <meta name="keywords" content="十大涂料品牌,十大油漆品牌,油漆涂料代理,乳胶漆,墙面漆,木器漆,真石漆,岩片漆,砂胶漆,多彩漆,艺术涂料,防水涂料,白胶辅材" />
-     <link href="../Skins/Default/Common.css" rel="stylesheet" type="text/css" />
+    <link href="../Skins/Default/Common.css" rel="stylesheet" type="text/css" />
     <link href="../Skins/default/Style.css" rel="stylesheet" type="text/css" />
     <link href="../Skins/default/temp.css" rel="stylesheet" type="text/css" />
+    <link href="css/css.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="../JS/1.9.1jquery.min.js"></script>
     <script type="text/javascript" src="../JS/Ajax.js"></script>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=wGmGuhs8gImYDhmwwbBpZSB3nNoi9Agg"></script>
+<script src="../JS/jquery.baiduMap.min.js"></script>
+<style>
+        .left,
+        .right {
+            width: 100%;
+            height: 700px;
+            padding: 40px 20px;
+            box-sizing: border-box;
+        }
+        
+        .containerX {
+            width:100%;
+            height: 100%;
+            float: left;
+        }
+        
+        .des {
+            float: right;
+            width: 48%;
+            height: 100%;
+            border: 1px dashed #000;
+            box-sizing: border-box;
+        }
+        
+        .info {
+            margin-top: 20px;
+            padding-left: 20px;
+            color: #cc5522;
+            font-size: 20px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        pre {
+            font-family: "微软雅黑";
+            font-size: 14px;
+        }
+        
+        .title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #cc5522;
+            margin-bottom: 0!important
+        }
+        
+        .content {
+            font-size: 13px;
+            color: #333;
+            margin-top: 6px;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,24 +78,23 @@
     <div class="header">
         <div class="header_btm">
             <div class="container">
-                <h1><a href="index.htm"><img src="../UploadFiles/Others/20190416144017_74252.png" 
-                            width="190" height="58"></a></h1>
+                <h1><a href="index.html"><img src="../UploadFiles/Others/logo.png" width="100" height="auto"></a></h1>
                 <!--<h2><img src="/Skins/Default/Img/Common/logo_w.png" width="179" height="38"></h2>-->
                 <ul class="nav">
-                    <li class="li01"><a href="../index.htm">首页</a></li>
-                    <li><a href="Help/aboutus.htm">关于我们</a><img src="Skins/Default/Img/Common/header_s.png" width="20"
+                    <li class="li01"><a href="../index.html">首页</a></li>
+                    <li><a href="aboutus.html">关于我们</a><img src="Skins/Default/Img/Common/header_s.png" width="20"
                             height="8">
                     </li>
-                    <li><a href="../cpfl.htm">产品中心</a><img src="Skins/Default/Img/Common/header_s.png" width="20"
+                    <li><a href="../cpfl.html">产品中心</a><img src="Skins/Default/Img/Common/header_s.png" width="20"
                             height="8">
                     </li>
-                    <li><a href="Help/jmhz.htm">经典案例</a><img src="Skins/Default/Img/Common/header_s.png" width="20"
+                    <li><a href="jmhz.html">经典案例</a><img src="Skins/Default/Img/Common/header_s.png" width="20"
                             height="8">
                     </li>
-                    <li><a href="news/index.htm">新闻中心</a><img src="Skins/Default/Img/Common/header_s.png" width="20"
+                    <li><a href="../news/index.html">新闻中心</a><img src="Skins/Default/Img/Common/header_s.png" width="20"
                             height="8">
                     </li>
-                    <li><a href="tsjy.htm">联系我们</a><img src="Skins/Default/Img/Common/header_s.png" width="20"
+                    <li><a href="tsjy.html">联系我们</a><img src="Skins/Default/Img/Common/header_s.png" width="20"
                             height="8">
                     </li>
                 </ul>
@@ -65,7 +116,7 @@
             <div class="container">
                 <div class="aB aB01">
                     <div class="aB-Con fl">
-                        <h3>集团简介</h3>
+                        <h3>公司简介</h3>
                         <i></i>
                         <p>亚特集团，总部位于广东中山，拥有七大生产基地和一个高新技术研发中心，在行业内通过中国环保产品认证、中国环境标志产品认证、国家3C强制产品认证，是涂料行业生产规模位居前列的企业集团之一。
                         </p>
@@ -91,79 +142,13 @@
                         </ul>
                     </div>
                 </div>
-
-                <div class="aB aB02">
-                    <div class="aB-Con fr">
-                        <h3>原材料优势</h3>
-                        <i></i>
-                        <p>公司拥有一批由国内外知名化工专家组成的高层次专业技术人才 与陶氏、杜邦、帝斯曼、拜耳等多个跨国化工企业在原材料供应有长期战略合作关系 </p>
-                        <a href="javascript:;" class="more"><img src="../Skins/Default/Img/Common/aB_a.png" width="44"
-                                height="44" ></a>
-                    </div>
-                </div>
-
-                <div class="aB aB03">
-                    <div class="aB-Con fl">
-                        <h3>科研合作</h3>
-                        <i></i>
-                        <p>公司与国内众多知名高校和化工研究院开展产学研合作，为新产品的研发提供强大的技术支持（如北京化工大学、中科院等）</p>
-                        <p>公司与多个跨国知名化工企业保持长期的技术领域合作关系（如陶氏、杜邦、帝斯曼、拜耳等）</p>
-                        <p>截至2014年底，公司共有60项专利申请，成为中国涂料行业申请专利数量较多的企业之一</p>
-                    </div>
-                </div>
-
-                <div class="aB-Bj">
-                    <h2>市场布局</h2>
-                    <div class="aB_bjBox">
-                        <dl class="aBList_box">
-                            <dt><a href="javascript:;"><img src="../Skins/Default/Img/Common/abBj01.jpg" width="346"
-                                        height="220" ></a></dt>
-                            <dd>
-                                <h3><a href="scjd.htm">7大生产基地</a></h3>
-                                <p>大大提升公司的物流速度，为客户提供了更具性价比的产品</p>
-                            </dd>
-                        </dl>
-                        <dl class="aBList_box">
-                            <dt><a href="javascript:;"><img src="../Skins/Default/Img/Common/abBj02.jpg" width="346"
-                                        height="220" ></a></dt>
-                            <dd>
-                                <h3><a href="javascript:;">全国50多个专业的营销团队</a></h3>
-                                <p>规模庞大且专业的营销队伍，大大提高了市场反应速度提升了客户的服务质量</p>
-                            </dd>
-                        </dl>
-                        <dl class="aBList_box">
-                            <dt><a href="javascript:;"><img src="../Skins/Default/Img/Common/abBj03.jpg" width="346"
-                                        height="220" ></a></dt>
-                            <dd>
-                                <h3><a href="javascript:;">全国3000多家经销商</a></h3>
-                                <p>强大的经销渠道，保证了公司产品通路的畅通，同时增加了与消费者的沟通机会</p>
-                            </dd>
-                        </dl>
-                    </div>
-                </div>
-
-                <!--定位-->
-                <div class="aB_dw">
-                    <div class="abDwBox fl">
-                        <img src="../Skins/Default/Img/Common/aBSw2.jpg" width="599" height="293" >
-                        <h3>企业定位</h3>
-                        <p>永远专注于涂料</p>
-                    </div>
-                    <div class="abDwBox fr">
-                        <img src="../Skins/Default/Img/Common/aBSw1.jpg" width="599" height="293" >
-                        <h3>永远专注于涂料</h3>
-                        <p>打造世界级的民族涂料领导品牌 </p>
-                    </div>
-                </div>
-
             </div>
-
-
         </div>
-
-
     </div>
-  
+
+    <div class="right">
+            <div id="container2" class="containerX"></div>
+    </div>
 
     <script type="text/javascript">
         $(function () {
@@ -179,21 +164,20 @@
 
     <div class="float">
         <div class="float_show float_show0">
-            <a style="cursor:pointer;" ></a>
+            <a style="cursor:pointer;"></a>
         </div>
         <div class="float_show float_show1" style="right: -146px;">
-            <a href="javascript:;"><img width="48" height="48" 
-                    src="../Skins/Default/Img/Common/float_icon2.png">400-8700-617</a>
+            <a href="javascript:;"><img width="48" height="48"
+                    src="../Skins/Default/Img/Common/float_icon2.png">18133626045</a>
         </div>
         <div class="float_show float_show2" style="right: -199px;">
-            <a href="mailTo:info@bardese.com"><img width="48" height="48" 
-                    src="../Skins/Default/Img/Common/float_icon3.png">info@bardese.com</a>
+            <a href=""><img width="48" height="48"
+                    src="../Skins/Default/Img/Common/float_icon3.png">1437552152@qq.com</a>
         </div>
 
         <div class="float_show float_show4">
-            <a href="javascript:;"><img width="48" height="48" 
-                    src="../Skins/Default/Img/Common/float_icon5.png"></a>
-            <div class="float_wx" style="display: none;"><img width="144" height="144" 
+            <a href="javascript:;"><img width="48" height="48" src="../Skins/Default/Img/Common/float_icon5.png"></a>
+            <div class="float_wx" style="display: none;"><img width="144" height="144"
                     src="../Skins/Default/Img/Common/ewm.png"></div>
         </div>
     </div>
@@ -256,4 +240,31 @@
 </html>
 <script type="text/javascript">
     $(".header_btm .nav>li").eq(1).addClass("cur");
+</script>
+<script type="text/javascript">
+    new BaiduMap({
+        id: "container2",
+        title: {
+            text: "软件新城",
+            className: "title"
+        },
+        content: {
+            className: "content",
+            text: ["地址：武汉软件新城", "电话：18133626045"]
+        },
+        point: {
+            lng: "114.511384",
+            lat: "30.562416"
+        },
+        level: 15,
+        zoom: true,
+        type: ["地图", "卫星", "三维"],
+        width: 320,
+        height: 70,
+        icon: {
+            url: "../img/icon.png",
+            width: 36,
+            height: 36
+        }
+    });
 </script>

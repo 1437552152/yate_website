@@ -30,15 +30,6 @@ function resrt(str) {
 
 }
 
-function xuanze() {
-
-    var xz = document.getElementById('seachkeywords').value;
-
-    if (xz.length == 0) {
-        xz = "";
-    }
-    window.location.href = 'http://www.badese.com/Search/Index.aspx?objtype=product&kwd=' + xz;
-}
 /********************
 * 根据key获取 ajax对象节点值getAjaxVal
 * xMsg : xml对象

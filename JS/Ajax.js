@@ -329,13 +329,13 @@ function showMsgPage(msg, msgType, btnHref, btnTitle, defaultHref, delay) {
         }
     }
     if (btnHref == null) {
-        btnHref = "../index.htm";
+        btnHref = "../index.html";
     }
     if (btnTitle == null) {
         btnTitle = "首页";
     }
     if (defaultHref == null) {
-        defaultHref = "../index.htm";
+        defaultHref = "../index.html";
     }
     if (delay == null) {
         delay = 9;
