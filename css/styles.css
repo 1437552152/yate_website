@@ -1,0 +1,168 @@
+.tilt-component {
+    overflow: hidden;
+    position: relative;
+}
+.case-top {
+    width: 100%;
+    height: 400px;
+    background-color: #1144a3;
+    background: linear-gradient(to top,#1144a3,#307fe2);
+    padding-top: 100px;
+}
+.case-top .top-title {
+    width: 100%;
+    height: 56px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 32px;
+    font-size: 40px;
+    font-weight: 300;
+}
+.case-top .top-content-hint {
+    width: 628px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-weight: 300;
+}
+.case-top .tilt-triangle {
+    background-color: #fff;
+}
+.tilt-triangle-bottom-left {
+    top: 100%;
+    transform-origin: 0 0;
+    transform: rotate(-3deg);
+}
+.tilt-triangle {
+    width: 200%;
+    position: absolute;
+    height: 200%;
+    z-index: 1;
+    background: #fff;
+}
+.case-list-cell.case-first {
+    top: -100px;
+    margin-bottom: -100px;
+}
+.case-list-cell {
+    position: relative;
+}
+.case-list-cell .normal-width {
+    height: 420px;
+    padding: 40px 0;
+    position: relative;
+}
+.normal-width {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.case-list-cell .case-list-cell-card {
+    position: relative;
+    height: 340px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(37,40,42,.1);
+    display: inline-block;
+    width: 290px;
+}
+.case-list-cell .case-list-cell-card .case-list-cell-card-img {
+    text-align: center;
+    margin-top: 70px;
+}
+.case-list-cell .case-list-cell-card .case-list-cell-card-company-name {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+}
+.case-list-cell .case-list-cell-card .case-list-cell-card-tags {
+    bottom: 40px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.case-list-cell .case-list-cell-card .case-list-cell-card-tags .case-list-cell-card-tag-blue {
+    background: #307fe2;
+    color: #fff;
+}
+.case-list-cell .case-list-cell-card .case-list-cell-card-tags .case-list-cell-card-people-count, .case-list-cell .case-list-cell-card .case-list-cell-card-tags .case-list-cell-card-tag {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: #f2f3f5;
+    margin: 0 5px;
+}
+.case-list-cell .case-list-cell-introduce {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 65%;
+    display: inline-block;
+}
+.case-list-cell .case-list-cell-introduce .case-list-cell-introduce-info {
+    margin-bottom: 20px;
+}
+.case-list-cell .case-list-cell-introduce .case-list-cell-introduce-info-content {
+    font-size: 14px;
+    line-height: 1.71;
+    margin-top: 5px;
+}
+.case-list-cell .case-list-cell-introduce .case-list-cell-introduce-detail-content {
+    font-size: 14px;
+    line-height: 2;
+}
+.case-list-cell.case-even {
+    background-color: #f8f9fa;
+}
+.case-list-cell .case-list-cell-card .case-list-cell-card-tags .case-list-cell-card-tag-blue {
+    background: #307fe2;
+    color: #fff;
+}
+.case-list-cell .case-list-cell-card .case-list-cell-card-tags .case-list-cell-card-tag-jyb {
+    background: #ff8c19;
+}
+.case-list-cell .case-list-cell-card .case-list-cell-card-tags .case-list-cell-card-tag-xz {
+    background: #f05b72;
+}
+.case-list-cell .case-list-cell-card .case-list-cell-card-tags .case-list-cell-card-tag-yyjs {
+    background: #11adb5;
+}
+.case-list-cell .case-list-cell-card .case-list-cell-card-tags .case-list-cell-card-tag-kdxf {
+    background: #307fe2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
