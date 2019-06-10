@@ -2001,8 +2001,8 @@ function sendLeaveword(src) {
         $a(err);
         return;
     }
-    showProc(src);
-    $.post("/ajax.ashx?action=SendLeaveword&t=" + Math.random(), {
+    console.log("2222",websiteURL)
+    $.post(websiteURL+"/baoming", {
         title: sTitle,
         cat: sCat,
         contact: sContact,
@@ -2012,14 +2012,7 @@ function sendLeaveword(src) {
         mobile: sMobile
 
     }, function(msg) {
-        var sta = gav(msg, "state");
-        var sMsg = gav(msg, "msg");
-        if (sta == "1") {
-            $a(sMsg, 1);
-        } else {
-            $a(sMsg);
-        }
-        showProc(src, false);
+       alert(msg.msg)
     });
 }
 
@@ -2907,9 +2900,9 @@ function AddApply(src) {
        /*面包屑导航的判断
        *
        */
-       var $plc = $("http://www.badese.com/JS/div.rtop");
+       var $plc = $("");
 
-       var $plc2 = $("http://www.badese.com/JS/div.ntop");
+       var $plc2 = $("");
 
        var $tmp = $plc.size() ? $plc : $plc2;
 
@@ -2917,7 +2910,7 @@ function AddApply(src) {
        var $location = $tmp; //$tmp.size() ? $tmp : $pro;
 
        //主导航的父级DIV
-       var $menu = $("http://www.badese.com/JS/div.header_btm .nav");
+       var $menu = $("");
        //面包屑导航的超链接
        var $info = $location.find("a");
        //面包屑导航超链接的数量
@@ -3035,33 +3028,19 @@ function sssendLeaveword(src) {
     if (sTitle == "") {
         sTitle == "网站留言";
     }
-
-
-
     if (err.length > 0) {
         $a(err);
         return;
     }
-    showProc(src);
-    $.post("/ajax.ashx?action=SendLeaveword&t=" + Math.random(), {
+    console.log("1111",websiteURL)
+    $.post(websiteURL+"/baoming", {
         email: sEmail,
         contact: sContact,
         mobile: sMobile,
         title: sTitle,
         desc: sDesc
     }, function (msg) {
-        var sta = gav(msg, "state");
-        var sMsg = gav(msg, "msg");
-        if (sta == "1") {
-            $a(sMsg, 1);
-            $("#LEAVEWORD_txtMobile").val("您的电话");
-            $("#LEAVEWORD_txtContact").val("您的姓名");
-            $("#LEAVEWORD_txtEmail").val("电子邮箱");
-            $("#LEAVEWORD_txtDesc").val("请详细描述您的建议、意见、问题等");
-        } else {
-            $a(sMsg);
-        }
-        showProc(src, false);
+        alert(msg.msg)
     });
 }
 
