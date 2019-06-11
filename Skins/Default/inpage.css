@@ -174,7 +174,14 @@ user-select:none;}
 .pc-menu li.cur a,.pc-menu li:hover a{ color:#fff;}
 
 .pc-list { overflow:hidden; width:1230px; margin:0 auto;}
-.pc-list li{ float:left; margin:15px; width:380px; height:365px; background-color:#fff; position:relative}
+.pc-list li{float: left;
+    margin: 15px;
+    width: 380px;
+    height: 290px;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    font-size: 18px;}
 .pc-list li .tu{ display:block; width:380px; height:284px; overflow:hidden; border-bottom:1px solid #e7e7e7; margin-bottom:20px;}
 .pc-list li h3{ font-size:16px; font-weight:normal; width:290px; margin-left:20px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; margin-bottom:5px;text-align: center;}
 .pc-list li h3 a{ color:#555}

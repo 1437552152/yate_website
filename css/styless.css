@@ -1,0 +1,45 @@
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.showNews {
+    padding: 20px 0 30px;
+}
+.showNews .title {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin: 10px 0 10px;
+}
+.mark, mark {
+    padding: .2em;
+    background-color: #fcf8e3;
+}
+.showNews .mark {
+    color: #999;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+.showNews .mark span {
+    margin: 0 10px;
+    font-size: 12px;
+}
+.nextpage {
+    margin-bottom: 50px;
+}
+.nextpage p {
+    margin-bottom: 30px;
+}
+.nextpage a {
+    color: #0e457e;
+}
+.link {
+    margin-bottom: 30px;
+    font-size: 16px;
+}

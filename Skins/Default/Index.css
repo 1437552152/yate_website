@@ -126,6 +126,8 @@
 .m_pro_list .hd h2 em { color:#777777; font-size:0.545em; font-style:normal; margin-left:6px; }
 .m_pro_list .bd { padding-top:1.25em; }
 .m_pro_list .bd li { float:left; width:23.72%; position:relative;}
+.m_pro_list .bd li  figure{margin-left:5px;margin-right: 5px;}
+
 .m_pro_list .bd li figcaption { display:block; height:49px; line-height:49px; text-align:center; font-size:14px; color:#3d3e3d; margin-bottom:22px; background-color:#FFF; border-bottom:solid 1px #d6d6d6; border-left:solid 1px #d6d6d6; border-right:solid 1px #d6d6d6;}
 .m_pro_list .bd li a:hover { text-decoration:none;}
 .m_pro_list .bd li:hover figcaption{background-color:#0d4da1; color:#FFF; border-bottom:solid 1px #0d4da1; border-left:solid 1px #0d4da1; border-right:solid 1px #0d4da1;}
