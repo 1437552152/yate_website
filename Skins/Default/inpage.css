@@ -45,7 +45,7 @@ user-select:none;}
 .bg_f6{ background-color:#f6f6f6;}
 .bg_f7{ background-color:#f7f7f7;}
 /*内页100%框*/
-.pageBox { overflow:hidden; width:100%; padding-bottom:50px;}
+.pageBox { overflow:hidden; width:100%; padding-bottom:50px;min-width: 1200px;}
 /*内页翻页按钮*/
 /*.ul-FlipBtn { overflow:hidden; width:100%; text-align:center; margin:30px 0;}
 .ul-FlipBtn li{ display:inline-block; margin:0 3px; border:1px solid #cecece; font-size:14px; color:#777; cursor:pointer; height:32px; text-align:center; line-height:32px;}

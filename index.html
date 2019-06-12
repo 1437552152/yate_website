@@ -99,7 +99,7 @@
 								<figure>
 									<div id="category">
 										<div class="item">
-											<a href="/product/?100_1.html">
+											<a  v-bind:href="'productdetail.html?id='+item.productId" >
 												<img v-bind:src="item.pic" v-bind:alt="item.tilte" style="width:100%; display:block; height:auto">
 												<div class="info-mask">
 													<div class="info-mask-line">
@@ -107,6 +107,7 @@
 												</div>
 											</a>
 										</div>
+										
 									</div>
 									<figcaption>{{item.title}}</figcaption>
 								</figure>
@@ -115,7 +116,7 @@
 					</div>
 				</div>
 				<div class="m_pro_more">
-					<a href="/product/?3_1.html">查看全部</a>
+					<a href="cpfl.html?id=1">查看全部</a>
 				</div>
 			</div>
 			<!--应用领域-->

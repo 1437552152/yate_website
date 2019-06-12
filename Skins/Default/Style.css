@@ -1,4 +1,4 @@
-.topadcs{width:100%; margin-bottom:0px;overflow:hidden; text-align:center;}
+.topadcs{width:100%; margin-bottom:0px;overflow:hidden; text-align:center;min-width: 1200px;}
 .topadcs a{display:block;margin:0 auto;height:400px;}
 
 .left { width:220px; float:left; overflow:hidden;}
@@ -26,7 +26,7 @@
 
 .login_tab .txtboxcs{ border:solid 1px #d7d7d7; height:22px;}
 /*.zc_tab2{border:solid 1px #d7d7d7;}*/
-.topadcs a {display: block;height: 400px;width: 100%;}
+.topadcs a {display: block;height: 400px;width: 100%;min-width: 1200px;}
 .nrcs{ border:1px solid #d7d7d7; border-top:0; margin-bottom:10px; background:#fff; width:752px; padding-top:10px}
 
 .prs .t05{background:#ED5F05;height:63px;line-height:63px;font-size:18px;padding-left: 16px;}

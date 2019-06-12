@@ -85,7 +85,7 @@ body{background-color:#fff; overflow-x:hidden; color:#666; font-size:12px; font-
 .header_top li:hover .ewm{ display:block}
 .header_top input{ width:0px; height:30px; line-height:30px; border:1px solid #fff; position:absolute; left:0; top:-10px;} */
 
-.header_btm { width:100%; height:120px; background-color:#1144a3; position:relative}
+.header_btm { width:100%; height:120px; background-color:#1144a3; position:relative;min-width: 1200px;}
 .header_btm h1{ float:left; margin-top:30px;}
 .header_btm h2{ float:left; margin-left:15px; margin-top:40px;}
 .header_btm .nav{ float:right; height:120px;}

@@ -84,7 +84,7 @@
 
 					<ul class="pc-list">
 						<li class="fdt" v-for="(item,index) in productList">
-							<a href="">
+							<a v-bind:href="'productdetail.html?id='+item.productId">
 								<img v-bind:src="item.pic" v-bind:alt="item.tilte" width="380" height="247" class="img"><span>{{item.title}}</span></a>
 						</li>
 					</ul>
