@@ -15,6 +15,7 @@
 		<link href="../Skins/Default/Common.css" rel="stylesheet" type="text/css" />
 		<link href="../Skins/default/Style.css" rel="stylesheet" type="text/css" />
 		<link href="../Skins/default/temp.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="../css/styless.css"/>
 		<script type="text/javascript" src="../JS/1.9.1jquery.min.js"></script>
 		<script type="text/javascript" src="../JS/Ajax.js"></script>
 		<script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
@@ -64,7 +65,7 @@
 			<!--Header:End-->
 			<!--content:start-->
 			<div class="topadcs">
-				<a alt='' title='' href="../product/index.html" style='background:url(../UploadFiles/Others/news.jpg) no-repeat center top;'></a>
+				<a alt='' title='' href="../product/index.html" style='background:url(../UploadFiles/Others/5ae44a16ec8eb.jpg) no-repeat center top;'></a>
 			</div>
 			<div class="news_center">
 				<div class="newsp02">
@@ -76,7 +77,7 @@
                             新闻中心</a></h2>
 							<em>Quotation</em> <i></i>
 						</div>
-						<div class="p02box" id="tlhqbox">
+						<!--<div class="p02box" id="tlhqbox">
 							<ul style="width: auto;">
 								<li v-for="(item,index) in newsList">
 									<a v-bind:href="'../newsdetail.html?id='+item.newsId" class="tu">
@@ -91,19 +92,22 @@
 								</li>
 
 							</ul>
+						</div>-->
+						
+						<div class="newslist">
+							<div class="items"  v-for="(item,index) in newsList">
+                        <a v-bind:href="'../newsdetail.html?id='+item.newsId">
+                            <img v-bind:src="item.focusPic">
+							<div class="text">
+								<h5 class="">{{item.title}}</h5>
+								<div class="desc">{{item.des}}</div>
+								<div class="time">{{item.time}}</div>
+							</div>
+                        </a>
+					</div>
+							
 						</div>
-						<div class="btnbox">
-							<i class="btn01" id="tlhq01"></i>
-							<!--<div class="btn" id="btntlhq">
-								<span></span>
-								<span></span>
-								<span></span>
-								<span></span>
-								<span></span>
-
-							</div>-->
-							<i class="btn02" id="tlhq02"></i>
-						</div>
+										
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -126,9 +130,7 @@
 			</script>
 
 			<div class="float">
-				<div class="float_show float_show0">
-					<a style="cursor:pointer;"></a>
-				</div>
+			
 				<div class="float_show float_show1" style="right: -146px;">
 					<a href="javascript:;"><img width="48" height="48" src="../Skins/Default/Img/Common/float_icon2.png">18133626045</a>
 				</div>

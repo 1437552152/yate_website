@@ -76,6 +76,7 @@
 				<div class="mark">
 					<span>发布日期：{{item.time}}</span><span>来源：{{item.author}}</span><span>浏览次数：{{item.view}}</span>
 				</div>
+				<div style="text-align: center"><img v-bind:src="item.pic" style="max-width: 400px;margin-bottom: 40px;margin-top: 20px;"></div>
 				<div class="showContxt" v-html="item.content"></div>
 			</div>
 			<div class="w1200">			   
@@ -85,9 +86,9 @@
 				  			      
 				<div class="nextpage">
 				   <p  v-if="jianjie1==''">上一篇：没有了</p>	
-				  <p  v-else> <a    v-for="sing in jianjie1"  v-bind:href="'Casedetail.html?id='+sing.Id">上一篇：{{sing.title}}</a>	</p>	
+				  <p  v-else> <a    v-for="sing in jianjie1"  v-bind:href="'productdetail.html?id='+sing.productId">上一篇：{{sing.title}}</a>	</p>	
 				  <p  v-if="jianjie2==''">下一篇：没有了</p>	
-				  <p  v-else> <a    v-for="sing in jianjie2"  v-bind:href="'Casedetail.html?id='+sing.Id">下一篇：{{sing.title}}</a>	</p>	
+				  <p  v-else> <a    v-for="sing in jianjie2"  v-bind:href="'productdetail.html?id='+sing.productId">下一篇：{{sing.title}}</a>	</p>	
 			   </div>   
 				  
 		  </div>
@@ -106,9 +107,6 @@
 	</script>
 
 	<div class="float">
-		<div class="float_show float_show0">
-			<a style="cursor:pointer;"></a>
-		</div>
 		<div class="float_show float_show1" style="right: -146px;">
 			<a href="javascript:;"><img width="48" height="48"
 					src="Skins/Default/Img/Common/float_icon2.png">18133626045</a>

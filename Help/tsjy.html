@@ -9,12 +9,15 @@
      <link href="../Skins/Default/Common.css" rel="stylesheet" type="text/css" />
     <link href="../Skins/default/Style.css" rel="stylesheet" type="text/css" />
     <link href="../Skins/default/temp.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/styless.css">
     <script type="text/javascript" src="../JS/1.9.1jquery.min.js"></script> 
     <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
 	<script src="https://cdn.bootcss.com/axios/0.14.0/axios.js"></script>
     <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
     <script type="text/javascript" src="../config.js"></script>
     <script type="text/javascript" src="../JS/Ajax.js"></script>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=wGmGuhs8gImYDhmwwbBpZSB3nNoi9Agg"></script>
+    <script src="../JS/jquery.baiduMap.min.js"></script>
 
 </head>
 
@@ -55,13 +58,74 @@
         <a alt='' title=''
             style='background:url(../UploadFiles/Others/contacts.jpg) no-repeat center top;'></a>
     </div>
+    <!-- 联系我们 -->
+    <div class="w1200">
+    <div class="Page65 clearfix">
+        <div class="MainCon">
+            <div class="text">
+                <div class="title">
+                    佛山市顺德区雅成化工有限公司
+                </div>
+                <div class="tel400">
+                    全国服务热线：
+                    <b>4006-118-377</b>
+                </div>
+                <div class="txt">
+                    德国雅庭漆业（亚洲）有限公司授权<br>
+                    总&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：0757-26363188
+                    <span class="hidden">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span>
+                    传&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;真：0757-26363185<br>
+
+                    销售热线：0757-26363181
+                    <span class="hidden">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span>
+                    客户服务：0757-26363186<br>
+                    招商热线：4006-118-377
+                    <span class="hidden">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;
+                    </span>
+                    技术研发：0757-26363188 （转）<br>
+                    投诉热线：0757-26363188 （转）<br>
+                    <br>
+                    联系地址：中国广东省佛山市顺德区国家级科技工业园C区（杏坛）科技八路5号<br>
+                    公司网址：www.yacheng.com.cn<br>
+                    E-mail：2858272268@qq.com<br>
+                    <br>
+                    香港联系方式：香港中环摆花街42号<br>
+                    电话：00852-25187201<br>
+                    传真：00852-25808197<br>
+                </div>
+            </div>
+            <div class="map">              
+                <div id="container2"
+                    style="position: relative; background-color: rgb(229, 227, 223); overflow: hidden; transform: translateZ(0px);">
+                  
+                </div>
+
+            </div>
+            <div class="cle"></div>
+        </div>
+    </div>
+    </div>
+    <!-- 联系我们结束 -->
+
+
     <!--Content:Start-->
     <div class="pageBox bg_f7">
         <div class="container">
-            <div class="title">
-                <h2>投诉建议</h2>
-                <em>Complaints and suggestions</em>
-                <i></i>
+            <div class="AMbox">
+                <p><b>服务，</b>是我们永不停歇的脚步！</p>
+                <div class="desc">您有任何疑问都可以随时联系我们</div>
             </div>
             <div class="tousu-box">
                 <ul>
@@ -74,26 +138,20 @@
                     </li>
                     <li>
                         <img src="../Skins/Default/Img/inpage/contact/tousu02.png" width="49" height="48"  />
-                        <input type="text" value="电子邮箱" id="LEAVEWORD_txtEmail"
-                            onfocus="if(this.value=='电子邮箱'){this.value=''}"
-                            onblur="if(this.value=='')this.value='电子邮箱'" />
+                        <input type="text"  id="LEAVEWORD_txtEmail" placeholder="请输入您的邮箱"/>
                     </li>
                     <li>
                         <img src="../Skins/Default/Img/inpage/contact/tousu03.png" width="49" height="48"  />
-                        <input type="text" value="您的姓名" id="LEAVEWORD_txtContact"
-                            onfocus="if(this.value=='您的姓名'){this.value=''}"
-                            onblur="if(this.value=='')this.value='您的姓名'" />
+                        <input type="text"  id="LEAVEWORD_txtContact" placeholder="请输入您的姓名"/>
                     </li>
                     <li>
                         <img src="../Skins/Default/Img/inpage/contact/tousu04.png" width="49" height="48"  />
-                        <input type="text" value="您的电话" id="LEAVEWORD_txtMobile"
-                            onfocus="if(this.value=='您的电话'){this.value=''}"
-                            onblur="if(this.value=='')this.value='您的电话'" />
+                        <input type="text" id="LEAVEWORD_txtMobile" placeholder="请输入手机号"
+                            />
                     </li>
                     <li class="last">
                         <span></span>
-                        <textarea id="LEAVEWORD_txtDesc" onfocus="if(this.value=='请详细描述您的建议、意见、问题等'){this.value=''}"
-                            onblur="if(this.value=='')this.value='请详细描述您的建议、意见、问题等'">请详细描述您的建议、意见、问题等</textarea>
+                        <textarea id="LEAVEWORD_txtDesc" placeholder="请详细描述您的建议、意见、问题等"></textarea>
                     </li>
                 </ul>
                 <span onclick="sssendLeaveword(this)">提 交</span>
@@ -113,9 +171,7 @@
 
 
     <div class="float">
-        <div class="float_show float_show0">
-            <a style="cursor:pointer;" ></a>
-        </div>
+    
         <div class="float_show float_show1" style="right: -146px;">
             <a href="javascript:;"><img width="48" height="48" 
                     src="../Skins/Default/Img/Common/float_icon2.png">18133626045</a>
@@ -194,3 +250,30 @@
 </body>
 
 </html>
+<script type="text/javascript">
+    new BaiduMap({
+        id: "container2",
+        title: {
+            text: "软件新城",
+            className: "title"
+        },
+        content: {
+            className: "content",
+            text: ["地址：武汉软件新城", "电话：18133626045"]
+        },
+        point: {
+            lng: "114.511384",
+            lat: "30.562416"
+        },
+        level: 15,
+        zoom: true,
+        type: ["地图", "卫星", "三维"],
+        width: 320,
+        height: 70,
+        icon: {
+            url: "../img/icon.png",
+            width: 36,
+            height: 36
+        }
+    });
+</script>

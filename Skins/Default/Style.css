@@ -68,7 +68,7 @@ p sup{ vertical-align:top}
 .tjwtBox .m_form .areLi label{height:132px;}
 .tjwtBox .m_form .txtAre{float:left; width:343px; height:104px; border:1px solid #dedede; outline:none; resize:none; padding:14px; color:#333; line-height:18px;}
 .tjwtBox .m_form .btnSubmit , .tjwtBox .m_form .btnReset{width:161px; text-align:center; height:36px; line-height:36px; color:#fff; border:none; background-color:#b3b3b3; cursor:pointer;}
-.tjwtBox .m_form .btnSubmit{margin-right:10px; background-color:#1144a3;cursor:pointer;}
+.tjwtBox .m_form .btnSubmit{margin-right:10px; background-color:#343434;cursor:pointer;}
 .tjwtBox .m_form .areLi{height:138px;}
 
 .rycon{border:1px solid #DDD0BD;width:197px; height:160px;margin-bottom:10px;}
@@ -290,7 +290,7 @@ dl.product_dl_commend dd{padding-top:14px; height:15px; width:166px; line-height
 .agent_con .age_list li a:hover, .agent_con .age_list li a.cur { background:url(Img/ico8.gif)/*tpa=http://www.badese.com/Skins/default/Img/ico8.gif*/ no-repeat left 5px; font-weight:bold; color:#DD3904; text-decoration:underline;}
 .agent_con .age_li_about { font-size:14px; }
 .agent_con .age_li_about p { white-space: normal; letter-spacing: normal;}
-.rt_bot_line { background:#1144a3; height:2px; font-size:0; margin-top:20px; margin-bottom:10px;}
+.rt_bot_line { background:#343434; height:2px; font-size:0; margin-top:20px; margin-bottom:10px;}
 .age_con_key { margin:0 auto;}
 .age_con_key .age_con_key1 { font-size:14px;}
 .age_con_key .age_con_key1 span { margin:0; font-weight:bold;}
@@ -334,7 +334,7 @@ dl.news_dl dd { font-size:12px; padding-left:10px; height:45px; overflow:hidden;
 dl.dl_2 { width:274px; padding:10px 13px; float:left; display:inline-block;}
 dl.dl_2 dt { width:274px;  overflow:hidden; } /*图片边框*/
 dl.dl_2 dt a { width:270px; padding:1px; border:1px solid #d7d7d7; display:block;}
-dl.dl_2 dt a:hover {border:1px solid #1144a3;}/*图片边框,点击时的状态*/
+dl.dl_2 dt a:hover {border:1px solid #343434;}/*图片边框,点击时的状态*/
 dl.dl_2 img { display:block;width:270px; }
 dl.dl_2 dd { margin:2px 0 0 0; width:274px; height:40px; line-height:20px; overflow:hidden;  text-align:center; padding:0 4px;}
 
@@ -343,11 +343,11 @@ dl.dl_2 dd { margin:2px 0 0 0; width:274px; height:40px; line-height:20px; overf
  dl.dl_42{ height:194px ; margin-bottom:20px; border-bottom:1px dotted #d7d7d7 }
 .dl_42 dt{width:204px; float:left;}
 .dl_42 dt a{width:200px;   padding:1px; border:1px solid #d7d7d7; display:block;}
-.dl_42  dt a:hover {border:1px solid #1144a3;}/*图片边框,点击时的状态*/
+.dl_42  dt a:hover {border:1px solid #343434;}/*图片边框,点击时的状态*/
 .dl_42 dt img{  display:block;width:200px;}
 .dl_42 dd{ padding-left:15px; float:left; width:980px; line-height:24px; height:194px; overflow:hidden; color:#666;font-size: 14px;}
 .dl_42 dd h4{ font-size:16px;  padding-bottom:5px; height:30px; line-height:24px; overflow:hidden;}
-.dl_42 dd h4 a{color:#1144a3;}
+.dl_42 dd h4 a{color:#343434;}
 
 
 .dl_42 dd span{}
@@ -766,7 +766,7 @@ dl.sear_dl dd .a_d { margin-right:5px; padding-left:10px; line-height:20px;}
 .search_con .search_hl{color:Red;padding:0px;}
 .sear_dl .dt2 {}
 .sear_dl .dt2 a { border:solid 1px #d7d7d7; padding:1px; display:block;}
-.sear_dl .dt2 a:hover {  border:solid 1px #1144a3;} /*产品边框，点击效果*/
+.sear_dl .dt2 a:hover {  border:solid 1px #343434;} /*产品边框，点击效果*/
 .sear_dl .dt2 img {display:block;width:150px; }
 .sear_dl .d2 { height:22px; overflow:hidden; line-height:22px;  text-align:center; text-justify:inter-ideograph;}
 

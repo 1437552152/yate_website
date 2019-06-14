@@ -43,3 +43,152 @@
     margin-bottom: 30px;
     font-size: 16px;
 }
+
+
+/*新闻列表*/
+.newslist{ margin-top: 50px; border-top: 1px solid #c0c0c0; }
+.newslist .items{ padding: 30px 0; border-bottom: 1px solid #c0c0c0; }
+.newslist .items img{ width: 370px; height: 245px; }
+.newslist .items .text{ float: right; padding-right: 45px; width: 724px; color: #707070; }
+.newslist .items .text h5{ font-size: 24px; line-height: 2; color: #343434; }
+.newslist .items .text .desc{ padding: 50px 0; line-height: 2; }
+
+/* 留言 */
+.AMbox{ padding: 35px 0 20px; }
+.AMbox p{ font-size: 24px; line-height: 2; }
+.AMbox .desc{ line-height: 2; }
+.Page65 .MainCon{ padding: 55px 0; border-bottom: 1px solid #c1c1c1; }
+.Page65 .text{ float: left; width: 50%; }
+.Page65 .text .title{ position: relative; padding-bottom: 8px; font-size: 24px; line-height: 2; color: #343434; font-weight: bold; }
+.Page65 .text .title:after{ display: block; content: ''; position: absolute; width: 25px; height: 3px; left: 0; bottom: 0; background: #343434; }
+.Page65 .text .tel400{ padding: 30px 0; font-size: 16px; }
+.Page65 .text .tel400 b{ display: block; font-size: 35px; color: #023894; margin-top: 20px;}
+.Page65 .text .txt{ color: #707070; line-height: 2; }
+.Page65 .map{ width: 50%; float: left; }
+.Page65 .map #container2{ width: 100%; min-height:550px; }
+.AMbox p b{ font-size: 40px; }
+@media only screen and (max-width: 768px){
+	.Page65 .text{ width: 100%; padding: 2%; }
+	.Page65 .map{ width: 100%; padding: 20px 0; }
+	.Page65 .map #container2{ min-height: 300px; }
+	.AMbox p b{ font-size: 20px; }
+}
+.cle{clear: both}
+
+
+/* 品牌介绍 */
+.ampt{ padding: 75px 0;padding-bottom: 0px; }
+.amjj{ letter-spacing: 55px; }
+.AMtit{ text-align: center; }
+.AMtit p{ font-size: 30px; }
+.AMtit span{ display: block; font-weight: 100; font-size: 18px; line-height: 45px; text-transform: uppercase; font-family: Arial; color: #707070; }
+.AMtit i{ display: block; margin: auto; width: 72px; height: 3px; background: #707070; }
+.AMbox{ padding: 35px 0 20px; }
+.AMbox p{ font-size: 24px; line-height: 2; }
+.AMbox .desc{ line-height: 2; }
+.AMul{ margin-left: -5px; margin-right: -5px; }
+.AMul li{ float: left; width: 25%; padding: 15px 5px; }
+.AMul li .items img{ width: 100%; height: 230px; }
+.AMul li .items p{ line-height: 35px; text-align: center; }
+.AM1{ background: #f2f2f2; }
+.AM1 .AM1box{ padding: 40px 0; line-height: 2 !important; }
+.AM1 .AMtit .txt{ color: #707070; font-weight: 100; }
+.AM1 .AMtit h3{ line-height: 2; }
+.AM1 .AMtit h4{ line-height: 50px; font-size: 28px; font-family: Arial; text-transform: uppercase; }
+.AM1 .AMtit h5{ font-size: 16px; line-height: 2; }
+.AM1 .AM1h2{ font-size: 33px; text-align: center; }
+.AM2{ max-height: 1035px; overflow: hidden; background-image: url(../images/AM2.jpg); }
+.AM2 .AMtit{ text-align: left; }
+.AM2 .AM2box{ padding-top: 45px; line-height: 2 !important; }
+.AM4 .AM4box{ padding-top: 50px; }
+.AM3{ background: #f2f2f2; }
+.AM3 .AM3box{ padding: 70px 0; }
+.AM3 .AM3tit{ text-align: center; }
+.AM3 .AM3tit p{ font-size: 30px; }
+.AM3 .AM3tit p em{ padding: 0 10px; font-size: 88px; color: #023894; font-family: 'Times New Roman'; }
+.AM3 .AM3tit span{ font-size: 20px; text-transform: uppercase; }
+.AM5{ background: #f2f2f2; }
+.AM5 .AM5box{ margin-top: 50px; }
+.AM5 .AM5box img{ float: left; width: 760px; }
+.AM5 .AM5box .text{ float: right; padding-top: 55px; padding-left: 30px; width: 430px; }
+.AM5 .AM5box .text p{ font-size: 24px; line-height: 2; }
+.AM5 .AM5box .text .desc{ padding: 15px 0; line-height: 2; }
+.AM6 .amSlider{ padding-top: 40px; padding-bottom: 60px; }
+.AM9{ padding: 50px 0; background: #f2f2f2; }
+.AM9 ul{ margin-left: -5px; margin-right: -5px; }
+.AM9 ul li{ float: left; padding: 0 5px; width: 33.333333%; text-align: center; }
+.AM9 ul li img{ width: 100%; height: 240px; }
+.AM9 ul li p{ line-height: 48px; }
+.MainCon{ width: 1200px; margin: 0 auto; overflow: hidden; }
+.MainCon:before,
+.MainCon:after{ display: table; content: ""; }
+
+.M1Con_1 .inner1{ padding: 50px 0; }
+.M1Con_1 .M1tit{ text-align: center; }
+.M1Con_1 ul{ padding: 30px 0; }
+.M1Con_1 ul li{ float: left; width: 33.3333%; text-align: center; }
+.M1Con_1 ul li p{ font-size: 40px; font-weight: 100; }
+.M1Con p,.M1Con_1 p{ font-size: 30px; margin-bottom: 10px; }
+.M1Con .items:nth-child(2),
+.M1Con .items:nth-child(2) .txt span{ color: #fff; }
+
+
+.MainCon{ width: 1200px; margin: 0 auto; overflow: hidden; }
+.MainCon:before,
+.MainCon:after{ display: table; content: ""; }
+.Mmore{ display: block; margin: 0 auto; width: 139px; height: 39px; line-height: 39px; text-align: center; border: 1px solid #333; }
+.Mtit{ margin-bottom: 50px; font-size: 24px; line-height: 2; text-align: center; }
+.Mtit h2{ font-weight: 500; font-size: 28px; color: #a7a7a7; text-transform: uppercase; }
+.M1Con{ border-bottom: 1px solid #e8e8e8; }
+.M1Con span,.M1Con_1 span{ color: #707070; }
+.M1Con .items{ position: relative; float: left; width: 25%; }
+.M1Con .items .img{ position: relative; width: 100%; }
+.M1Con .items .txt{ position: absolute; width: 100%; top: 15%; text-align: center; }
+.M1Con p,.M1Con_1 p{ font-size: 30px; margin-bottom: 10px; }
+.M1Con .items:nth-child(2),
+.M1Con .items:nth-child(2) .txt span{ color: #fff; }
+.M1Con_1 .inner1{ padding: 50px 0; }
+.M1Con_1 .M1tit{ text-align: center; }
+.M1Con_1 ul{ padding: 30px 0; }
+.M1Con_1 ul li{ float: left; width: 33.3333%; text-align: center; }
+.M1Con_1 ul li p{ font-size: 40px; font-weight: 100; }
+.M3Con{ padding: 120px 0; background: #f4f4f4; }
+.M3Con .M3Img{ float: left; width: auto; position: relative; padding-right: 34px; padding-bottom: 33px; }
+.M3Con .M3Img img{ position: relative; z-index: 2; }
+.M3Con .M3Img i{ position: absolute; width: 95%; height: 95%; right: 0; bottom: 0; border: 3px solid #eee; z-index: 1; }
+.M3Con .M3Box{ float: right; width: 50%; }
+.M3Con .M3Box ul li{ float: left; width: 20%; text-align: center; line-height: 35px; }
+.M3Con .M3Box .M3hd{ padding: 20px 0; position: relative; }
+.M3Con .M3Box .M3hd h2{ font-size: 28px; }
+.M3Con .M3Box .M3hd a{ position: absolute; display: inline-block; width: 128px; height: 28px; line-height: 28px; text-align: center; bottom: 20px; right: 0; border: 1px solid #033994; color: #033994; border-radius: 28px; }
+.M3Con .M3Box .txt{ padding: 8px 0; line-height: 2; }
+.M3Con .M3Box ul{ padding: 50px 0; }
+.M3Con .M3Box .items{ float: left; width: 48.5%; }
+.M3Con .M3Box .items.mr{ margin-right: 3% }
+.M4Con{ padding-top: 132px; padding-bottom: 115px; background: url(../images/M4.jpg) no-repeat center; }
+.M4Con .M4Box{ float: right; width: 500px; line-height: 2; }
+.M4Con .M4Box h3{ padding: 35px 0; font-size: 30px; color: #f7e300; }
+.M4Con .M4Box .txt .t{ height: 180px; overflow: hidden; }
+.M4Con .M4Box .M4More{ display: block; margin-top: 25px; width: 145px; height: 41px; line-height: 41px; text-align: center; color: #f7e300; border: 1px solid #f7e300; }
+.M6Con{ padding: 35px 0; overflow: hidden; }
+.M6Con ul{ margin-left: -20px; margin-right: -20px; color: #a7a7a7; line-height: 1.5; }
+.M6Con ul li{ float: left; padding-left: 20px; padding-right: 20px; width: 33.333333%; }
+.M6Con ul li a{ font-size: 18px; }
+.M6Con ul li .time{ line-height: 35px; }
+.M6Con .imgTable span{ height: 18rem; }
+.M6Con .imgTable span img{ max-height: 18rem; }
+.M7Con{ padding: 35px 0; }
+.M7Con .M7list{ padding-bottom: 35px; }
+.M7Con .M7list .items{ float: left; width: 48.5%; overflow: hidden; }
+.M7Con .M7list .items:first-child{ margin-right: 3%; }
+.MBan{ padding-top: 115px;  padding-bottom: 90px; height: 435px; background: url(../images/Ban.jpg) no-repeat center; }
+.MBan div.img:first-child{ margin-bottom: 40px; }
+
+.amSlider{ position: relative; margin-left: -15px; margin-right: -15px; padding-bottom: 45px; }
+.amSlider .slick-slide{ padding: 15px;float: left;width: 379px;
+   }
+    .amSlider .slick-slide img{  height: 220px;}
+.amSlider .slick-arrow{ position: absolute; display: block; width: 38px; height: 38px; line-height: 33px; margin-left: 50%; bottom: 0; border: 1px solid #dddcd8; font-size: 30px; color: #dddcd8; text-align: center; overflow: hidden; }
+.amSlider .slick-arrow.amPrev{ left: -42px; }
+.amSlider .slick-arrow.amNext{ left: 5px; }
+.amSlider .slick-arrow:hover{ color: #9c9897; border-color: #9c9897; }

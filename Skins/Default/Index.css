@@ -6,13 +6,13 @@
 #flashs .bgitem{  z-index:1;position:absolute; top:0; }
 #flashs .btn{ position:absolute; z-index:7; bottom:15px; left:50%; margin-left:-95px; padding:0px 6px;}
 #flashs .btn span{ color:#fff;  background:#333; cursor: pointer;display: inline-block;margin:0 2px;width:25px;height:25px;font-size:14px;line-height:25px;text-align:center;}
-#flashs .btn span.cur{ background:#1055bf;}
+#flashs .btn span.cur{ background:#343434;}
 
 .banner { overflow:hidden; width:100%; height:600px; position:relative}
 .banner .btn{ overflow:hidden; text-align:center; position:absolute; width:100%; left:0; bottom:20px; z-index:5}
 .banner .btn span{ display:inline-block; width:10px; height:10px; background-color:#333; margin:0 5px; border-radius:10px; cursor: pointer;}
 .banner .btn span{*display:inline}
-.banner .btn .cur{ background-color:#1144a3}
+.banner .btn .cur{ background-color:#343434}
 .banner .box{ overflow:hidden; width:100%; height:100%; position:relative}
 .banner .blist{ overflow:hidden; height:100%; width:100%; position: absolute; left:0; top:0;}
 
@@ -62,7 +62,7 @@
 .tedian { overflow:hidden; width:1200px; margin:50px auto 60px auto; height:250px; padding-bottom:40px; border-bottom:2px solid #f3f3f3;}
 .tedian ul{ overflow:hidden; width:110%;}
 .tedian li{ float:left; width:249px; padding-right:30px; margin-right:30px; border-right:1px dotted #c7c7c7;}
-.tedian li img{ display:block; margin:0 auto; margin-bottom:20px;}
+.tedian li img{ display:block; margin:0 auto; margin-bottom:20px;opacity: 0.7;}
 .tedian li h3{ text-align:center; font-size:18px; color:#333; margin-bottom:10px;}
 .tedian li p{ text-align:center; font-size:16px; color:#666; line-height:20px;}
 
@@ -141,9 +141,9 @@
     .clearfix{*zoom:1;}
 /*应用领域*/
 .lingyu { overflow:hidden; padding-top:60px; width:100%; background:url(Img/Index/lingyu_bg.png) repeat-x left top; margin-bottom:70px;min-width: 1200px;}
-.lingyu ul{ overflow:hidden; width:1220px; margin:0 auto; height:400px;}
+.lingyu ul{ overflow:hidden; width:1220px; margin:0 auto; height:400px;margin-top: 50px;}
 .lingyu li{ overflow:hidden; float:left; width:285px; margin:0 10px; height:400px; position:relative;}
-.lingyu li img{ display:block;}
+.lingyu li img{ display:block;opacity: 0.7;}
 .lingyu li .imgIcon{ display:block; position:absolute; left:50%; margin-left:-25px; top:305px; z-index:2}
 .lingyu li a{ display:block; width:100%; height:70px; position: absolute; left:0; bottom:0; text-decoration:none}
 .lingyu li .icon{ margin:0 auto; display:none;}
@@ -226,7 +226,8 @@
     margin-right: 3%;
     position: relative;
     border: 1px solid #eee;
-    padding-bottom: 10px;
+	padding-bottom: 10px;
+	margin-top: 50px;
 }
 .news .item:nth-child(4){
     margin-right: 0px;
@@ -243,23 +244,24 @@
     padding: 5px 10px;
 }
 .news .item p .more{
-    border-radius: 20px;
-    padding: 7px 30px;
-    border: 1px solid #1447a1;
+	border-radius: 20px;
+    padding: 1px 30px;
+    border: 3px solid #343434;
     color: #fff;
-    background: #1447a1;
+    background: #343434;
     float: right;
 }
 
 
 /* 底部 */
 .footerWrap {
-	background: url('../../UploadFiles/Others/footer.png') no-repeat center;
+	/* background: url('../../UploadFiles/Others/footer.png') no-repeat center; */
 	margin-top: -24px;
 	padding: 31px 0;
 	background-size: cover;
 	align-items: center;
 	width: 100%;
+	background-color: #414141
 }
 
 .footerWrap .containers {
@@ -280,10 +282,10 @@
 
 .footerWrap .containers .footerTit .Tits div {
 	font-size: 15px;
-	color: #61647c;
+	color: #fff;
 	line-height: 35px;
 }
-
+.footerWrap .containers .footerTit .Tits a{color:#fff}
 .footerWrap .containers .footerList {
 	flex: 1px;
 	margin: 0 0 0 270px;

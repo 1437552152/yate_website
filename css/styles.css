@@ -5,8 +5,8 @@
 .case-top {
     width: 100%;
     height: 400px;
-    background-color: #1144a3;
-    background: linear-gradient(to top,#1144a3,#307fe2);
+    background-color: #343434;
+    background: linear-gradient(to top,#343434,#307fe2);
     padding-top: 100px;
 }
 .case-top .top-title {
@@ -109,7 +109,7 @@
 .case-list-cell .case-list-cell-introduce {
     position: absolute;
     right: 0;
-    top: 50%;
+    top:40%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);

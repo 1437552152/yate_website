@@ -131,138 +131,10 @@ function hideDdl(cntrId) {
     }
 
 }
-
-function $a(sMsg, boxType, autoClose, focusElmId, sTitle, behavior) {
-    if (boxType == null) {
-        boxType = 2;
-    }
-    if (autoClose == null) {
-        autoClose = -1;
-    }
-    //标题
-    if (sTitle == null) {
-        sTitle = "消息提示";
-    }
-
-    hideDdl();
-    var jMesbook1 = $j("mesbook1");
-    if (jMesbook1.length == 0) {
-        var sHtml = "<div id='mesbook1'>"
-				+ "<div><img style='float:right' onclick='hideMsg()' id='mesbook1ImgClose' src='" + SKIN_PATH + "Img/ico9_close.gif' alt='关闭' class='fr p vam ml5' /><span id='mesbook1Title'></span></div>"
-				+ "<dl class='b1'>"
-					+ "<dt><img id='mesbook1Icon' src='" + SKIN_PATH + "Img/message_ico_03.gif' alt='' title='' /></dt>"
-					+ "<dd class='l_25' id='mesbook1Msg'></dd>"
-					+ "<dd class='b' style='visibility:hidden' id='mesbook1AutoClose'>此窗口<span id='mesbook1Delay' style='margin:0 5px;'></span>秒钟后自动关闭。</dd>"
-					+ "<dd id='mesbook1Btns'>"
-					+ "<input type='button' class='b15' value='关 闭' />"
-					+ "</dd>"
-				+ "</dl>"
-			+ "</div>";
-        $(document.body).append(sHtml);
-    }
-    var jMesbook1 = $j("mesbook1");
-    var jMesbook1ImgClose = $j("mesbook1ImgClose");
-    var jMesbook1Icon = $j("mesbook1Icon");
-    var jMesbook1Msg = $j("mesbook1Msg");
-    var jMesbook1AutoClose = $j("mesbook1AutoClose");
-    var jMesbook1Delay = $j("mesbook1Delay");
-    var jMesbook1Title = $j("mesbook1Title");
-    var jMesbook1Btns = $j("mesbook1Btns");
-
-    jMesbook1Title.html(sTitle);
-    //消息内容
-    jMesbook1Msg.html(sMsg);
-    //图标
-    var iconPath = SKIN_PATH + "Img/";
-    switch (boxType) {
-        case 1: iconPath += "ico_ok.gif"; break;
-        case 2: iconPath += "ico_info.gif"; break;
-        case 3: iconPath += "ioc_ques.gif"; break;
-        case -1: iconPath += "ico_error.gif"; break;
-        default: iconPath += "ico_normal.gif"; break;
-    }
-    jMesbook1Icon.attr("src", iconPath);
-
-    //关闭按钮
-    var okBtn = jMesbook1Btns.find("input");
-    okBtn.removeAttr("onclick");
-    okBtn.click(function () {
-        hideMsg();
-        if (focusElmId != null) {
-            $j(focusElmId).focus();
-        }
-        if (behavior != null) {
-            behavior();
-        }
-    });
-    jMesbook1ImgClose.removeAttr("onclick");
-    jMesbook1ImgClose.click(function () {
-        hideMsg();
-        if (focusElmId != null) {
-            $j(focusElmId).focus();
-        }
-        if (behavior != null) {
-            behavior();
-        }
-    });
-    okBtn.focus();
-
-    //显示
-    showFullBg();
-    setCM("mesbook1");
-    //relocation("mesbook1");
-    jMesbook1.fadeIn(80);
-}
 /********************
 * 显示一个全屏灰度背景
 * elmId : 元素ID或元素
 ********************/
-function showFullBg(elmId, isHideDdl, opacity, bgColor, zIndex, speed, behavior) {
-    if (elmId == null) {
-        elmId = "oran_full_bg";
-    }
-    var jElm = $j(elmId);
-    if (jElm.length == 0) {
-        var sHtml = "<div style='position:absolute;top:0;left:0;display:none;' id='" + elmId + "'></div>";
-        $(document.body).append(sHtml);
-    }
-    if (opacity == null) {
-        opacity = 0.75;
-    }
-    if (bgColor == null) {
-        bgColor = "#777";
-    }
-    if (zIndex == null) {
-        zIndex = "9";
-    }
-    if (speed == null) {
-        speed = 80;
-    }
-    if (isHideDdl == null) {
-        isHideDdl = true;
-    }
-    var jElm = $j(elmId);
-    var dd = document.documentElement;
-    var sWidth = dd.scrollWidth;
-    var sHeight = dd.scrollHeight;
-    var cH = dd.clientHeight;
-    var cW = dd.clientWidth;
-    if (sHeight < cH) {
-        sHeight = cH;
-    }
-    if (sWidth < cW) {
-        sWidth = cW;
-    }
-    jElm.css({ "z-index": zIndex, "background": bgColor, "opacity": opacity, "filter": "progid:DXImageTransform.Microsoft.Alpha(opacity=" + opacity * 100 + ")" });
-    jElm.css({ "height": sHeight, "width": sWidth });
-    if (isHideDdl) {
-        hideDdl(null, behavior);
-    }
-    jElm.fadeIn(speed);
-    if (behavior != null) {
-        behavior();
-    }
-}
 
 function setCM(elmId, speed) {
     var jElm;
@@ -339,16 +211,6 @@ function relocation(elmId) {
 }
 
 /********************
-* 隐藏消息提示层
-********************/
-function hideMsg() {
-    showDdl();
-    var jShadow = $j("mesbook1");
-    hideFullBg();
-    jShadow.fadeOut(80);
-}
-
-/********************
 * 隐藏下拉框函数
 ********************/
 function showDdl() {
@@ -357,24 +219,6 @@ function showDdl() {
         $(arrTags[i]).css("visibility", "visible");
     }
 }
-
-/********************
-* 隐藏全屏灰度背景
-* speed : (可选)渐变消退的速度
-********************/
-function hideFullBg(elmId, speed) {
-    if (elmId == null) {
-        elmId = "oran_full_bg";
-    }
-    if (speed == null) {
-        speed = 80;
-    }
-    var jElm = $j(elmId);
-    jElm.fadeOut(speed);
-    showDdl();
-}
-
-
 
 
 //用户登陆

@@ -67,32 +67,36 @@
 		<!--Content:Start-->
 		<div class="topadcs">
 			<a alt='' title='' href="product/index.html"
-				style='background:url(UploadFiles/Others/20161222094351_15438.jpg) no-repeat center top;'></a>
+				style='background:url(UploadFiles/Others/5ae44a16ec8eb.jpg) no-repeat center top;'></a>
 		</div>
 
 		<!--详情内容-->
-		<div class="wrapper showNews w1200"  v-for="item in jianjie3">
-				<h1 class="title">{{item.title}}</h1>
-				<div class="mark">
-					<span>发布日期：{{item.time}}</span><span>来源：{{item.author}}</span><span>浏览次数：{{item.view}}</span>
-				</div>
-				<div class="showContxt"   v-html="item.content"></div>
+		<div class="wrapper showNews w1200" v-for="item in jianjie3">
+			<h1 class="title">{{item.title}}</h1>
+			<div class="mark">
+				<span>发布日期：{{item.time}}</span><span>来源：{{item.author}}</span><span>浏览次数：{{item.view}}</span>
 			</div>
-			<div class="w1200">			   
-				<div class="link">当前网页链接：<a  v-bind:href="url">{{url}}</a></div>
-				 <div class="link"  v-for="item in jianjie3">本文标题：<a  v-bind:href="url">{{item.title}}</a></div>
-				  <div class="link"  v-for="item in jianjie3">文章标签：<a  href="index.html">{{item.keyword}}</a></div>
-				  			      
-				<div class="nextpage">
-				   <p  v-if="jianjie1==''">上一篇：没有了</p>	
-				  <p  v-else> <a    v-for="sing in jianjie1"  v-bind:href="'Casedetail.html?id='+sing.Id">上一篇：{{sing.title}}</a>	</p>	
-				  <p  v-if="jianjie2==''">下一篇：没有了</p>	
-				  <p  v-else> <a    v-for="sing in jianjie2"  v-bind:href="'Casedetail.html?id='+sing.Id">下一篇：{{sing.title}}</a>	</p>	
-			   </div>   
-				  
-		  </div>
+			<div style="text-align: center"><img v-bind:src="item.focusPic" style="max-width: 400px;margin-bottom: 40px;margin-top: 20px;"></div>
+			<div class="showContxt" v-html="item.content"></div>
+		</div>
+		<div class="w1200">
+			<div class="link">当前网页链接：<a v-bind:href="url">{{url}}</a></div>
+			<div class="link" v-for="item in jianjie3">本文标题：<a v-bind:href="url">{{item.title}}</a></div>
+			<div class="link" v-for="item in jianjie3">文章标签：<a href="index.html">{{item.keyword}}</a></div>
 
-<iframe frameborder="0" scrolling="no" src="footer.html" height="210px" width="100%" style="min-width:1200px;"></iframe>
+			<div class="nextpage">
+				<p v-if="jianjie1==''">上一篇：没有了</p>
+				<p v-else> <a v-for="sing in jianjie1"
+						v-bind:href="'newsdetail.html?id='+sing.newsId">上一篇：{{sing.title}}</a> </p>
+				<p v-if="jianjie2==''">下一篇：没有了</p>
+				<p v-else> <a v-for="sing in jianjie2"
+						v-bind:href="'newsdetail.html?id='+sing.newsId">下一篇：{{sing.title}}</a> </p>
+			</div>
+
+		</div>
+
+		<iframe frameborder="0" scrolling="no" src="footer.html" height="210px" width="100%"
+			style="min-width:1200px;"></iframe>
 	</div>
 
 	<script type="text/javascript">
@@ -106,9 +110,7 @@
 	</script>
 
 	<div class="float">
-		<div class="float_show float_show0">
-			<a style="cursor:pointer;"></a>
-		</div>
+	
 		<div class="float_show float_show1" style="right: -146px;">
 			<a href="javascript:;"><img width="48" height="48"
 					src="Skins/Default/Img/Common/float_icon2.png">18133626045</a>
@@ -187,11 +189,11 @@
 	var vm = new Vue({
 		el: '#app',
 		data: {
-			type:0,
-			jianjie1:null,
-						jianjie2:null,
-						jianjie3:null,
-						url:""
+			type: 0,
+			jianjie1: null,
+			jianjie2: null,
+			jianjie3: null,
+			url: ""
 		},
 		methods: {
 			getData: function (url, params) {
@@ -200,12 +202,12 @@
 					method: 'get',
 					url: url,
 					params: {
-					newsId: this.type
+						newsId: this.type
 					}
 				}).then((res) => {
-					this.jianjie1 =res.data.data1
-						    this.jianjie2 =res.data.data2
-							this.jianjie3 =res.data.data3;
+					this.jianjie1 = res.data.data1
+					this.jianjie2 = res.data.data2
+					this.jianjie3 = res.data.data3;
 				}, function () {
 					console.log('请求失败');
 				});
